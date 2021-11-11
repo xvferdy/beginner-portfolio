@@ -1,1 +1,16 @@
 //footer
+.footer {
+	background-color: pink;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	z-index: 3;
+
+	// height: 8rem;
+	width: 100%;
+
+	h2 {
+		background-color: purple;
+	}
+}
