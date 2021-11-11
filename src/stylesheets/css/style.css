@@ -14,6 +14,10 @@ body {
   background-color: #eff4f6;
 }
 
+main p {
+  padding-bottom: 20px;
+}
+
 .pages {
   max-width: 1080px;
   margin: 10px auto;
@@ -51,11 +55,13 @@ h1 {
 h3 {
   font-weight: 400;
   margin-top: 20px;
+  margin-bottom: 50px;
   text-align: center;
 }
 @media only screen and (max-width: 900px) {
   h3 {
     font-size: 17px;
+    margin-bottom: 30px;
   }
 }
 
@@ -182,6 +188,10 @@ h3 {
   background-color: purple;
 }
 
+.card {
+  border: 1px solid black;
+}
+
 .about__header__profile {
   display: flex;
   justify-content: center;
@@ -198,18 +208,22 @@ h3 {
   padding: 0 5px;
 }
 .about__header__profile__status__sub-name {
-  color: gray;
+  color: #7f7f7f;
   font-size: small;
 }
-.about__header__profile__status__sub-name .emoji {
-  font-size: inherit;
-  color: inherit;
+.projects__content {
+  background-color: #138b8b;
 }
-.about__content {
-  margin-top: 20px;
+.projects__content__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
+  gap: 20px;
 }
-.about__content p {
-  padding: 10px 0;
+@media only screen and (max-width: 600px) {
+  .projects__content__cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

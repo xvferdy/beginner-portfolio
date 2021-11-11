@@ -1,5 +1,4 @@
 @mixin display($breakpoint) {
-	// default = 16px
 	@if ($breakpoint == phone) {
 		@media only screen and(max-width: 600px) {
 			@content;
@@ -7,16 +6,6 @@
 	}
 	@if ($breakpoint == tab-port) {
 		@media only screen and(max-width: 900px) {
-			@content;
-		}
-	}
-	@if ($breakpoint == tab-land) {
-		@media only screen and(max-width: 1200px) {
-			@content;
-		}
-	}
-	@if ($breakpoint == big-desktop) {
-		@media only screen and(min-width: 1800px) {
 			@content;
 		}
 	}

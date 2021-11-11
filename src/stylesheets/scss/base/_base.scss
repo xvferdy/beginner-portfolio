@@ -18,6 +18,12 @@ body {
 	background-color: $fourth-color;
 }
 
+main {
+	p {
+		padding-bottom: 20px;
+	}
+}
+
 // router pages
 .pages {
 	max-width: 1080px;
