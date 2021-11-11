@@ -1,0 +1,45 @@
+.about {
+	&__header {
+		// padding: 20px;
+		// DRY-> title,subtitle?
+		&__title {
+		}
+		&__profile {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top: 20px;
+
+			&__avatar {
+				padding: 0 5px;
+			}
+			&__status {
+				display: flex;
+				justify-content: center;
+				flex-direction: column;
+				padding: 0 5px;
+
+				&__name {
+				}
+				&__sub-name {
+					color: gray;
+					font-size: small;
+					.emoji {
+						font-size: inherit;
+						color: inherit;
+					}
+				}
+			}
+		}
+		&__sub-title {
+		}
+	}
+	//DRY -> content,paragtaph/<p>
+	&__content {
+		margin-top: 20px;
+		// background-color: rgb(19, 139, 139);
+		p {
+			padding: 10px 0;
+		}
+	}
+}

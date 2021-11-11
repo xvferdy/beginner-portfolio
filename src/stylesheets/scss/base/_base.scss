@@ -15,20 +15,24 @@
 
 body {
 	box-sizing: border-box;
+	background-color: $fourth-color;
 }
 
-// router
-.container {
-	margin: 20px auto;
-
+// router pages
+.pages {
 	max-width: 1080px;
-	margin: 0 auto;
+	margin: 10px auto;
 	padding: 20px;
 
 	// padding: 0 8rem;
+	@include display(tab-port) {
+		// font-size: smaller;
+		// padding: 0 2rem;
+		// margin-bottom: 80px;
+	}
 	@include display(phone) {
-		padding: 0 2rem;
-		margin-bottom: 80px;
+		// padding: 0 2rem;
+		// margin-bottom: 80px;
 	}
 }
 

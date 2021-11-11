@@ -1,7 +1,11 @@
 // global
 @use "base/base";
+@use "base/typography";
 
 // components
 @use "./components/navbar";
 @use "./components/sidebar";
 @use "./components/footer";
+
+// pages
+@use './pages/about';

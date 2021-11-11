@@ -6,7 +6,7 @@ function Layout({ children }) {
 	return (
 		<Fragment>
 			<Navigation />
-			<div className="container">{children}</div>
+			<div className="pages">{children}</div>
 			<Footer />
 		</Fragment>
 	);

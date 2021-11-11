@@ -8,7 +8,7 @@ function Footer() {
 			</div>
 			<div>
 				Created by <a href="#">Berlianto</a> With <a href="">ReactJS</a>,
-				<a href="">Sass</a> and <a href="">Material-UI</a>
+				<a href=""> Sass</a> and <a href="">Material-UI</a>
 			</div>
 		</footer>
 	);

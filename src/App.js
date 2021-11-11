@@ -6,6 +6,9 @@ import About from "./pages/About";
 import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 
+import { AccessAlarm, ThreeDRotation } from "@mui/icons-material";
+import AddAlertIcon from "@mui/icons-material/AddAlert";
+
 function App() {
 	return (
 		<Router>
@@ -17,6 +20,8 @@ function App() {
 					<Route path="/projects/" element={<Projects />} />
 				</Routes>
 			</Layout>
+			{/* <AddAlertIcon /> */}
+			<p>sdsdf</p>
 		</Router>
 	);
 }
