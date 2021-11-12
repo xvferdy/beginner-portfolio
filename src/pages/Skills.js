@@ -4,8 +4,8 @@ function Skills() {
 	return (
 		<div className="skills">
 			<div className="skills__header">
-				<h1 className="skills__header__title">About Me</h1>
-				<h3 className="skills__header__sub-title">❝asdjasj asdjkah❞</h3>
+				<h1 className="skills__header__title">Tech Stack</h1>
+				<h3 className="skills__header__sub-title">❝My Latest Interests❞</h3>
 			</div>
 			<main className="skills__content">
 				<p>

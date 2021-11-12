@@ -12,6 +12,7 @@
 body {
   box-sizing: border-box;
   background-color: #eff4f6;
+  background-image: url("../../assets/mybg.png");
 }
 
 main p {
@@ -188,10 +189,6 @@ h3 {
   background-color: purple;
 }
 
-.card {
-  border: 1px solid black;
-}
-
 .about__header__profile {
   display: flex;
   justify-content: center;
@@ -210,9 +207,6 @@ h3 {
 .about__header__profile__status__sub-name {
   color: #7f7f7f;
   font-size: small;
-}
-.projects__content {
-  background-color: #138b8b;
 }
 .projects__content__cards {
   display: grid;

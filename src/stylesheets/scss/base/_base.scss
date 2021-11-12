@@ -10,12 +10,14 @@
 	font-family: $primary-font;
 
 	// border: 1px solid gray;
+	// overflow-x: hidden;
 	// transition: 0.3s;
 }
 
 body {
 	box-sizing: border-box;
 	background-color: $fourth-color;
+	background-image: url("../../assets/mybg.png");
 }
 
 main {

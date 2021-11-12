@@ -44,7 +44,7 @@ function About() {
 		<div className="about">
 			<div className="about__header">
 				<h1 className="about__header__title">About Me</h1>
-				{/* <div className="about__header__profile">
+				<div className="about__header__profile">
 					<div className="about__header__profile__avatar">
 						<StyledBadge
 							overlap="circular"
@@ -62,7 +62,7 @@ function About() {
 							Guten morgen
 						</div>
 					</div>
-				</div> */}
+				</div>
 
 				<h3 className="about__header__sub-title">❝Dress to Impress❞</h3>
 			</div>
