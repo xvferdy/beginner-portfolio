@@ -24,7 +24,7 @@ const handleClick = () => {
 
 function ProjectCard() {
 	return (
-		<div className="card">
+		<div className="project-card">
 			<Card sx={{ maxWidth: "100%" }}>
 				<CardActionArea>
 					<CardMedia

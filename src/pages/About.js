@@ -89,6 +89,16 @@ function About() {
 					ad. Pariatur cillum dolore laboris Lorem dolor pariatur. asdasd
 					Voluptate velit ad duis sunt proident commodo qui
 				</p>
+				<p>
+					You can reach me out via email at hendraaagil@gmail.com, or via
+					socials below:
+				</p>
+				<div className="social">
+					<a href="">Facebook</a>
+					<a href="">Facebook</a>
+					<a href="">Facebook</a>
+					<a href="">Facebook</a>
+				</div>
 			</main>
 		</div>
 	);

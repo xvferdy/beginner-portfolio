@@ -1,0 +1,16 @@
+@use '../helpers' as *;
+
+.skills {
+	&__header {
+	}
+	&__content {
+		&__cards {
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			position: relative;
+		}
+
+		// background-color: rgb(19, 139, 139);
+	}
+}

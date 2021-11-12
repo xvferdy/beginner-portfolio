@@ -7,7 +7,9 @@
 @use "./components/sidebar";
 @use "./components/footer";
 @use "./components/projectCard";
+@use './components/skillCard';
 
 // pages
 @use './pages/about';
 @use './pages/projects';
+@use './pages/skills';
