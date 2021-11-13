@@ -36,3 +36,6 @@ h3 {
 a {
 	color: #ffd24e;
 }
+h5 {
+	font-weight: map-get($font-weights, medium);
+}

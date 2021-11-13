@@ -10,41 +10,73 @@ const data = {
 		{
 			title: "Github",
 			image: github,
-			link: "https://github.com/xvferdy/notes-app",
-			description: "React, Material-UI, JSON Server",
 		},
 		{
 			title: "Sass",
+			image: sass,
+		},
+		{
+			title: "Node Js",
+			image: nodejs,
+		},
+		{
+			title: "Visual Studio Code",
+			image: vsc,
+		},
+		{
+			title: "Git",
+			image: git,
+		},
+		{
+			title: "React Js",
+			image: react,
+		},
+		{
+			title: "Javascript",
+			image: js,
+		},
+	],
+	projects: [
+		{
+			title: "Yu-Gi-Oh landing",
+			image: github,
+			description: "A simple landing page for YuGiOh Duel Links",
+			tags: ["React", "Sass"],
+			link: "https://github.com/xvferdy/notes-app",
+			demo: "https://github.com/xvferdy/notes-app",
+		},
+		{
+			title: "How to be a millionaire",
 			image: sass,
 			link: "https://github.com/xvferdy/daftar-ekskul",
 			description: "HTML, CSS, PHP, MySQL",
 		},
 		{
-			title: "Node Js",
+			title: "Note App",
 			image: nodejs,
 			link: "https://github.com/xvferdy/notes-app",
 			description: "React, Material-UI, JSON Server",
 		},
 		{
-			title: "Visual Studio Code",
+			title: "Simple chat App",
 			image: vsc,
 			link: "https://github.com/xvferdy/daftar-ekskul",
 			description: "HTML, CSS, PHP, MySQL",
 		},
 		{
-			title: "Git",
+			title: "React shooping cart",
 			image: git,
 			link: "https://github.com/xvferdy/daftar-ekskul",
 			description: "HTML, CSS, PHP, MySQL",
 		},
 		{
-			title: "React Js",
+			title: "Jojos tarot card",
 			image: react,
 			link: "https://github.com/xvferdy/notes-app",
 			description: "React, Material-UI, JSON Server",
 		},
 		{
-			title: "Javascript",
+			title: "2020 portfolio",
 			image: js,
 			link: "https://github.com/xvferdy/daftar-ekskul",
 			description: "HTML, CSS, PHP, MySQL",
