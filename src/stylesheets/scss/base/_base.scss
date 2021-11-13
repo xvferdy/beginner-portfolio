@@ -26,16 +26,17 @@ main {
 		padding-bottom: 20px;
 	}
 }
-a {
-	// color: red;
-}
 
 // router pages
 .pages {
 	max-width: 1080px;
-
-	margin: 10px auto;
 	padding: 20px;
+	margin: 10px auto;
+
+	// cakar
+	// https://css-tricks.com/couple-takes-sticky-footer/
+	min-height: calc(100vh - 70px);
+	margin-bottom: 90px;
 
 	// padding: 0 8rem;
 	@include display(tab-port) {

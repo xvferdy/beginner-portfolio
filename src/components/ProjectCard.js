@@ -29,7 +29,9 @@ function ProjectCard() {
 				<CardActionArea>
 					<CardMedia
 						component="img"
-						height="340"
+						// height="340"
+						height="100%"
+						width="100%"
 						image={thumb2222}
 						alt="Project Thumbnail"
 					/>

@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import Footer from "../components/Footer";
+
 import Navigation from "../components/Navigation";
 
 function Layout({ children }) {
@@ -7,7 +7,6 @@ function Layout({ children }) {
 		<Fragment>
 			<Navigation />
 			<div className="pages">{children}</div>
-			<Footer />
 		</Fragment>
 	);
 }

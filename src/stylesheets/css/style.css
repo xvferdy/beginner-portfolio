@@ -22,8 +22,10 @@ main p {
 
 .pages {
   max-width: 1080px;
-  margin: 10px auto;
   padding: 20px;
+  margin: 10px auto;
+  min-height: calc(100vh - 70px);
+  margin-bottom: 90px;
 }
 .active {
   color: #e97171;
@@ -65,6 +67,10 @@ h3 {
     font-size: 17px;
     margin-bottom: 30px;
   }
+}
+
+a {
+  color: #ffd24e;
 }
 
 .navbar {
@@ -139,14 +145,13 @@ h3 {
 .sidebar {
   display: none;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .sidebar {
     display: block;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 4;
-    width: 45%;
     height: 100%;
     padding: 4rem 2rem;
     transition: transform 0.3s ease-out;
@@ -173,20 +178,24 @@ h3 {
   }
 }
 .sidebar--open {
-  transform: rotate(20deg);
+  transform: translateX(0);
 }
 .sidebar--closed {
   transform: translateX(-100%);
 }
 
 .footer {
-  background-color: pink;
+  clear: both;
+  position: relative;
+  margin-top: -80px;
+  bottom: 0;
+  background-color: #2b3838;
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   z-index: 3;
-  width: 100%;
 }
 .footer h2 {
   background-color: purple;
@@ -335,6 +344,18 @@ h3 {
   justify-content: space-between;
   flex-wrap: wrap;
   position: relative;
+}
+
+.home {
+  margin-top: 20vh;
+}
+.home__gif {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+.home__gif img {
+  max-width: 260px;
 }
 
 /*# sourceMappingURL=style.css.map */

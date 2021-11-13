@@ -8,6 +8,7 @@ import RedditIcon from "@mui/icons-material/Reddit";
 import TelegramIcon from "@mui/icons-material/Telegram";
 
 import myAvatar from "../assets/gabe.jpg";
+import tdsmaru from "../assets/tdsmaru.JPG";
 import signature from "../assets/signature2.png";
 import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -54,7 +55,7 @@ function About() {
 							anchorOrigin={{ vertical: "bottom", horizontal: "right" }}
 							variant="dot"
 						>
-							<Avatar alt="Me" src={myAvatar} sx={{ width: 56, height: 56 }} />
+							<Avatar alt="Me" src={tdsmaru} sx={{ width: 56, height: 56 }} />
 						</StyledBadge>
 					</div>
 					<div className="about__header__profile__status">

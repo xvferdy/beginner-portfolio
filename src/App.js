@@ -8,21 +8,23 @@ import Projects from "./pages/Projects";
 
 import { AccessAlarm, ThreeDRotation } from "@mui/icons-material";
 import AddAlertIcon from "@mui/icons-material/AddAlert";
-
+import Footer from "./components/Footer";
 function App() {
 	return (
-		<Router>
-			<Layout>
-				<Routes>
-					<Route path="/" element={<Home />} />
-					<Route path="/about/" element={<About />} />
-					<Route path="/skills" element={<Skills />} />
-					<Route path="/projects/" element={<Projects />} />
-				</Routes>
-			</Layout>
-			{/* <AddAlertIcon /> */}
-			<p>sdsdf</p>
-		</Router>
+		<>
+			<Router>
+				<Layout>
+					<Routes>
+						<Route path="/" element={<Home />} />
+						<Route path="/about/" element={<About />} />
+						<Route path="/skills" element={<Skills />} />
+						<Route path="/projects/" element={<Projects />} />
+					</Routes>
+				</Layout>
+				{/* <AddAlertIcon /> */}
+			</Router>
+			<Footer />
+		</>
 	);
 }
 
