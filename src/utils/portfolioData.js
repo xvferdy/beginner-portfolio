@@ -6,45 +6,45 @@ import js from "../assets/js.png";
 import react from "../assets/react.png";
 import git from "../assets/git.png";
 const data = {
-	projects: [
+	skills: [
 		{
-			title: "Notes App",
+			title: "Github",
 			image: github,
 			link: "https://github.com/xvferdy/notes-app",
 			description: "React, Material-UI, JSON Server",
 		},
 		{
-			title: "Daftar Ekskul",
+			title: "Sass",
 			image: sass,
 			link: "https://github.com/xvferdy/daftar-ekskul",
 			description: "HTML, CSS, PHP, MySQL",
 		},
 		{
-			title: "Notes App",
+			title: "Node Js",
 			image: nodejs,
 			link: "https://github.com/xvferdy/notes-app",
 			description: "React, Material-UI, JSON Server",
 		},
 		{
-			title: "Daftar Ekskul",
+			title: "Visual Studio Code",
 			image: vsc,
 			link: "https://github.com/xvferdy/daftar-ekskul",
 			description: "HTML, CSS, PHP, MySQL",
 		},
 		{
-			title: "Daftar Ekskul",
+			title: "Git",
 			image: git,
 			link: "https://github.com/xvferdy/daftar-ekskul",
 			description: "HTML, CSS, PHP, MySQL",
 		},
 		{
-			title: "Notes App",
+			title: "React Js",
 			image: react,
 			link: "https://github.com/xvferdy/notes-app",
 			description: "React, Material-UI, JSON Server",
 		},
 		{
-			title: "Daftar Ekskul",
+			title: "Javascript",
 			image: js,
 			link: "https://github.com/xvferdy/daftar-ekskul",
 			description: "HTML, CSS, PHP, MySQL",

@@ -1,0 +1,13 @@
+@mixin social-icon($color) {
+	background: $color;
+	color: #fff;
+
+	.tooltip {
+		background: $color;
+		color: currentColor;
+
+		&:after {
+			border-top-color: $color;
+		}
+	}
+}

@@ -53,7 +53,7 @@
 		}
 	}
 	&--open {
-		transform: translateX(0);
+		transform: rotate(20deg);
 	}
 	&--closed {
 		transform: translateX(-100%);

@@ -8,6 +8,9 @@ import RedditIcon from "@mui/icons-material/Reddit";
 import TelegramIcon from "@mui/icons-material/Telegram";
 
 import myAvatar from "../assets/gabe.jpg";
+import signature from "../assets/signature2.png";
+import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 // material
 const StyledBadge = styled(Badge)(({ theme }) => ({
@@ -80,9 +83,16 @@ function About() {
 					asdasd Voluptate velit ad duis sunt proident commodo qui deserunt
 					reprehenderit amet aliqua. Quis labore in in culpa sit minim in non
 					aute eu ad velit amet. Ipsum proident tempor tempor in deserunt
-					exercitation officia voluptate ad. Pariatur cillum dolore laboris
-					Lorem dolor pariatur. asdasd Voluptate velit ad duis sunt proident
-					commodo qui
+					exercitation officia'{" "}
+					<a
+						target="_blank"
+						rel="noopener noreferrer"
+						href="mailto:berlianto.ferdynand@gmail.com"
+					>
+						tempor
+					</a>{" "}
+					ad. Pariatur cillum dolore laboris Lorem dolor pariatur. asdasd
+					Voluptate velit ad duis sunt proident commodo qui
 				</p>
 				<p>
 					sum proident tempor tempor in deserunt exercitation officia voluptate
@@ -90,14 +100,46 @@ function About() {
 					Voluptate velit ad duis sunt proident commodo qui
 				</p>
 				<p>
-					You can reach me out via email at hendraaagil@gmail.com, or via
-					socials below:
+					You can reach me out via email at{" "}
+					<a
+						target="_blank"
+						rel="noopener noreferrer"
+						href="mailto:berlianto.ferdynand@gmail.com"
+					>
+						berlianto.ferdynand@gmail.com
+					</a>
+					, or via socials below:
 				</p>
-				<div className="social">
-					<a href="">Facebook</a>
-					<a href="">Facebook</a>
-					<a href="">Facebook</a>
-					<a href="">Facebook</a>
+				<div className="about__content__signature">
+					<img src={signature} alt="" />
+				</div>
+
+				<div className="about__content__socials">
+					<div class="social-icons">
+						<a class="social-icon social-icon--github">
+							<GitHubIcon />
+							<div class="tooltip">Github</div>
+						</a>
+						<a class="social-icon social-icon--steam">
+							<SportsEsportsIcon />
+							<div class="tooltip">Steam</div>
+						</a>
+						{/* <a class="social-icon social-icon--twitter">
+							<div class="tooltip">Instagram</div>
+						</a>
+						<a class="social-icon social-icon--dribbble">
+							<div class="tooltip">Twitter</div>
+						</a>
+						<a class="social-icon social-icon--instagram">
+							<div class="tooltip">Instagram</div>
+						</a>
+						<a class="social-icon social-icon--linkedin">
+							<div class="tooltip">LinkedIn</div>
+						</a>
+						<a class="social-icon social-icon--facebook">
+							<div class="tooltip">Instagram</div>
+						</a> */}
+					</div>
 				</div>
 			</main>
 		</div>

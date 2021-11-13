@@ -12,7 +12,7 @@ function Skills() {
 			</div>
 			<main className="skills__content">
 				<div className="skills__content__cards">
-					{portfolioData.projects.map((project) => (
+					{portfolioData.skills.map((project) => (
 						<SkillCard {...project} />
 					))}
 					<Skeleton variant="rectangular" width="30%" height={100} />

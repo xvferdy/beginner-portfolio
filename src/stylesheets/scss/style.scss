@@ -6,8 +6,8 @@
 @use "./components/navbar";
 @use "./components/sidebar";
 @use "./components/footer";
-@use "./components/projectCard";
-@use './components/skillCard';
+@use "./components/project-card";
+@use './components/skill-card';
 
 // pages
 @use './pages/about';
