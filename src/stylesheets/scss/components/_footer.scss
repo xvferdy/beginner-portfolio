@@ -6,8 +6,8 @@
 	// height: 80px;
 	margin-top: -80px;
 	bottom: 0;
-	background-color: #2b3838;
-	color: white;
+	background-color: #1976d2;
+	color: #fff;
 	padding: 10px;
 	display: flex;
 	flex-direction: column;
@@ -15,12 +15,4 @@
 
 	align-items: center;
 	z-index: 3;
-
-	h2 {
-		background-color: purple;
-	}
-	.copyright {
-		vertical-align: middle;
-		line-height: 10px;
-	}
 }

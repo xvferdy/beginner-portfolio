@@ -23,7 +23,8 @@ h3 {
 	font-weight: map-get($font-weights, regular);
 	margin-top: 20px;
 	margin-bottom: 50px;
-
+	// text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em pink, 0 0 0.2em pink;
+	text-shadow: 1px 1px 2px lightgray;
 	text-align: center;
 	@include display(tab-port) {
 		font-size: 17px;
@@ -34,7 +35,17 @@ h3 {
 }
 
 a {
-	color: #ffd24e;
+	color: $secondary-color;
+	// font-weight: bold;
+	font-weight: map-get($font-weights, bold);
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+p {
+	// font-weight: map-get($font-weights, regular);
+	line-height: 25px;
 }
 h5 {
 	font-weight: map-get($font-weights, medium);

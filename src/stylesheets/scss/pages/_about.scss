@@ -21,8 +21,9 @@
 				&__name {
 				}
 				&__sub-name {
-					color: #7f7f7f;
+					color: #555;
 					font-size: small;
+					text-shadow: 1px 1px 2px white;
 				}
 			}
 		}
@@ -32,6 +33,10 @@
 	}
 	//DRY -> content,paragtaph/<p>
 	&__content {
+		a {
+			// color: #44b700;
+			color: darken($secondary-color, 30%);
+		}
 		&__signature {
 			height: 100px;
 			img {

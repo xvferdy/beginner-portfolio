@@ -83,7 +83,7 @@ const data = {
 		{
 			title: "How to be a Millionaire",
 			image: thumb2,
-			description: "Quiz App inspired international television game show",
+			description: "Quiz App inspired by international television game show",
 			tags: ["React"],
 			githubRepo: "https://github.com/xvferdy/how-to-be-a-millionaire",
 			demo: "https://xvferdy.github.io/how-to-be-a-millionaire/",
@@ -91,7 +91,7 @@ const data = {
 		{
 			title: "Jojo Tarot Card",
 			image: thumb6,
-			description: "Static web page showing list of card, made with Sass",
+			description: "A static web page showing list of card, create with Sass",
 			tags: ["HTML", "Sass"],
 			githubRepo: "https://github.com/xvferdy/tarot-of-marseilles-sass",
 			demo: "https://xvferdy.github.io/tarot-of-marseilles-sass/",

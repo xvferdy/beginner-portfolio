@@ -11,7 +11,8 @@
 body {
   box-sizing: border-box;
   background-color: #eff4f6;
-  background-image: url("../../assets/mybg.png");
+  background-image: url("../../assets/mybg13.png");
+  background-position: bottom;
   background-attachment: fixed;
 }
 
@@ -27,7 +28,7 @@ main p {
   margin-bottom: 90px;
 }
 .active {
-  color: #e97171;
+  color: #adff2f;
   text-decoration: none;
 }
 @media only screen and (max-width: 600px) {
@@ -59,6 +60,7 @@ h3 {
   font-weight: 400;
   margin-top: 20px;
   margin-bottom: 50px;
+  text-shadow: 1px 1px 2px lightgray;
   text-align: center;
 }
 @media only screen and (max-width: 900px) {
@@ -69,7 +71,16 @@ h3 {
 }
 
 a {
-  color: #ffd24e;
+  color: #adff2f;
+  font-weight: 700;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  line-height: 25px;
 }
 
 h5 {
@@ -78,6 +89,7 @@ h5 {
 
 .navbar {
   background-color: #eff4f6;
+  background-color: #1976d2;
   box-shadow: 0 0.1px 2px rgba(0, 0, 0, 0.2);
   position: sticky;
   top: 0;
@@ -85,6 +97,7 @@ h5 {
 }
 .navbar__name {
   color: #931a25;
+  color: #fff;
   text-decoration: none;
   font-size: 25px;
   font-weight: bold;
@@ -99,10 +112,11 @@ h5 {
 }
 .navbar__list__item__link {
   color: #931a25;
+  color: #fff;
   text-decoration: none;
 }
 .navbar__list__item__link:hover {
-  color: #e97171;
+  color: #adff2f;
 }
 @media only screen and (max-width: 600px) {
   .navbar__list__item {
@@ -170,7 +184,7 @@ h5 {
   .sidebar__list__item__link {
     display: block;
     text-decoration: none;
-    background-color: #e97171;
+    background-color: #adff2f;
     color: #931a25;
     padding: 10px 20px;
     border-radius: 0.25rem;
@@ -192,8 +206,8 @@ h5 {
   position: relative;
   margin-top: -80px;
   bottom: 0;
-  background-color: #2b3838;
-  color: white;
+  background-color: #1976d2;
+  color: #fff;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -201,18 +215,11 @@ h5 {
   align-items: center;
   z-index: 3;
 }
-.footer h2 {
-  background-color: purple;
-}
-.footer .copyright {
-  vertical-align: middle;
-  line-height: 10px;
-}
 
 .skill-card {
   flex-basis: 30%;
   height: 100px;
-  background-color: #f6f6f6;
+  background-color: #fafafa;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -244,8 +251,12 @@ h5 {
   padding: 0 5px;
 }
 .about__header__profile__status__sub-name {
-  color: #7f7f7f;
+  color: #555;
   font-size: small;
+  text-shadow: 1px 1px 2px white;
+}
+.about__content a {
+  color: #5a9500;
 }
 .about__content__signature {
   height: 100px;

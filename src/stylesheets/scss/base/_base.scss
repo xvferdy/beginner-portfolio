@@ -17,7 +17,12 @@
 body {
 	box-sizing: border-box;
 	background-color: $fourth-color;
-	background-image: url("../../assets/mybg.png");
+	// background-color: #fafafa;
+	background-image: url("../../assets/mybg13.png");
+	// background-size: cover;
+	background-position: bottom;
+	// background-repeat: no-repeat;
+
 	background-attachment: fixed;
 }
 
@@ -41,11 +46,11 @@ main {
 	// padding: 0 8rem;
 	@include display(tab-port) {
 		// font-size: smaller;
-		// padding: 0 2rem;
+		// padding: 20px 40px;
 		// margin-bottom: 80px;
 	}
 	@include display(phone) {
-		// padding: 0 2rem;
+		// padding: 20px;
 		// margin-bottom: 80px;
 	}
 }

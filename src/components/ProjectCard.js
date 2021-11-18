@@ -52,7 +52,7 @@ function ProjectCard({ title, projectImg, desc, tags, repo, demo }) {
 									label={tag.toLowerCase()}
 									variant="outlined"
 									size="small"
-									// color="secondary"
+									color="primary"
 									onClick={handleClick}
 								/>
 							))}
@@ -62,7 +62,7 @@ function ProjectCard({ title, projectImg, desc, tags, repo, demo }) {
 				<CardActions>
 					<Button
 						variant="contained"
-						color="secondary"
+						color="info"
 						startIcon={<GitHubIcon />}
 						href={repo}
 						target="_blank"
@@ -75,7 +75,7 @@ function ProjectCard({ title, projectImg, desc, tags, repo, demo }) {
 						target="_blank"
 						size="small"
 						variant="outlined"
-						color="primary"
+						color="info"
 						endIcon={<LinkIcon />}
 						disabled={Boolean(!demo)}
 					>

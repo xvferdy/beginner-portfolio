@@ -15,7 +15,12 @@ function Skills() {
 					{portfolioData.skills.map((project) => (
 						<SkillCard {...project} />
 					))}
-					<Skeleton variant="rectangular" width="30%" height={100} />
+					<Skeleton
+						animation="wave"
+						variant="rectangular"
+						width="30%"
+						height={100}
+					/>
 					{/* <iframe
 						src="https://www.w3schools.com"
 						title="W3Schools Free Online Web Tutorials"
