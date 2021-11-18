@@ -10,10 +10,12 @@ import SendIcon from "@mui/icons-material/Send";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkIcon from "@mui/icons-material/Link";
 import thumb1 from "../assets/thumb1.png";
-import thumb2 from "../assets/thumb2.png";
-import thumb22 from "../assets/thumb22.png";
-import thumb222 from "../assets/thumb222.png";
-import thumb2222 from "../assets/thumb2222.png";
+// import thumb2 from "../assets/thumb2.png";
+// import thumb3 from "../assets/thumb3.png";
+// import thumb4 from "../assets/thumb4.png";
+// import thumb5 from "../assets/thumb5.png";
+// import thumb6 from "../assets/thumb6.png";
+// import thumb7 from "../assets/thumb7.png";
 
 import Chip from "@mui/material/Chip";
 import Stack from "@mui/material/Stack";
@@ -22,64 +24,60 @@ const handleClick = () => {
 	console.info("You clicked the Chip.");
 };
 
-function ProjectCard() {
+function ProjectCard({ title, projectImg, desc, tags, repo, demo }) {
+	console.log(Boolean(demo));
 	return (
 		<div className="project-card">
 			<Card sx={{ maxWidth: "100%" }}>
 				<CardActionArea>
 					<CardMedia
 						component="img"
-						// height="340"
 						height="100%"
 						width="100%"
-						image={thumb2222}
+						image={projectImg}
 						alt="Project Thumbnail"
 					/>
-
-					<CardContent>
+					{/* <CardContent sx={{ backgroundColor: "#f7f7f7", minHeight: "177px" }}> */}
+					<CardContent sx={{ backgroundColor: "#f7f7f7" }}>
+						{/* <CardContent> */}
 						<Typography gutterBottom variant="h5" component="div">
-							tarot-of-marseilles-sass
+							{title}
 						</Typography>
 						<Typography variant="body2" color="#7f7f7f">
-							Lizards are a widespread group of squamate reptiles, with over
-							6,000 species, ranging across all continents except xxxx
+							{desc}
 						</Typography>
 						<Stack direction="row" spacing={1}>
-							<Chip
-								label="React"
-								variant="outlined"
-								size="small"
-								onClick={handleClick}
-							/>
-							<Chip
-								label="Sass"
-								variant="outlined"
-								size="small"
-								color="primary"
-								onClick={handleClick}
-							/>
+							{tags.map((tag) => (
+								<Chip
+									label={tag.toLowerCase()}
+									variant="outlined"
+									size="small"
+									// color="secondary"
+									onClick={handleClick}
+								/>
+							))}
 						</Stack>
 					</CardContent>
 				</CardActionArea>
 				<CardActions>
 					<Button
-						// size="small"
 						variant="contained"
 						color="secondary"
 						startIcon={<GitHubIcon />}
-						href="https://github.com/xvferdy"
+						href={repo}
 						target="_blank"
 					>
 						Github
 					</Button>
 
 					<Button
-						href="https://github.com/xvferdy"
+						href={demo ? demo : "#"}
+						target="_blank"
 						size="small"
 						variant="outlined"
-						color="error"
+						color="primary"
 						endIcon={<LinkIcon />}
-						disabled
+						disabled={Boolean(!demo)}
 					>
 						Demo
 					</Button>

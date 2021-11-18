@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
+import portfolioData from "../utils/portfolioData";
 
 function Projects() {
 	return (
@@ -10,9 +11,16 @@ function Projects() {
 			</div>
 			<main className="projects__content">
 				<div className="projects__content__cards">
-					<ProjectCard />
-					<ProjectCard />
-					<ProjectCard />
+					{portfolioData.projects.map((project) => (
+						<ProjectCard
+							title={project.title}
+							projectImg={project.image}
+							desc={project.description}
+							tags={project.tags}
+							repo={project.githubRepo}
+							demo={project.demo}
+						/>
+					))}
 				</div>
 			</main>
 		</div>
