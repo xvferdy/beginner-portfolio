@@ -16,7 +16,7 @@ function Skills() {
 						<SkillCard {...project} />
 					))}
 					<Skeleton variant="rectangular" width="30%" height={100} />
-					<iframe
+					{/* <iframe
 						src="https://www.w3schools.com"
 						title="W3Schools Free Online Web Tutorials"
 						width="30%"
@@ -28,7 +28,7 @@ function Skills() {
 						title="W3Schools Free Online Web Tutorials"
 						width="30%"
 						height="100px"
-					></iframe>
+					></iframe> */}
 					<Skeleton
 						variant="rectangular"
 						animation={false}

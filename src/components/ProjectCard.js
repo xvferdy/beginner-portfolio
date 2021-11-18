@@ -42,7 +42,7 @@ function ProjectCard() {
 						</Typography>
 						<Typography variant="body2" color="#7f7f7f">
 							Lizards are a widespread group of squamate reptiles, with over
-							6,000 species, ranging across all continents except Antarctica
+							6,000 species, ranging across all continents except xxxx
 						</Typography>
 						<Stack direction="row" spacing={1}>
 							<Chip
