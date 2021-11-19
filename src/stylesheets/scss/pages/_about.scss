@@ -21,9 +21,9 @@
 				&__name {
 				}
 				&__sub-name {
-					color: #555;
+					color: $grey-thing;
 					font-size: small;
-					text-shadow: 1px 1px 2px white;
+					text-shadow: 1px 1px 2px #fff;
 				}
 			}
 		}
@@ -31,10 +31,9 @@
 			// h3 typography
 		}
 	}
-	//DRY -> content,paragtaph/<p>
+
 	&__content {
 		a {
-			// color: #44b700;
 			color: darken($secondary-color, 30%);
 		}
 		&__signature {
@@ -65,7 +64,7 @@
 				// text-decoration: none;
 				transition: all 0.15s ease;
 				&:hover {
-					color: #fff;
+					color: $white-thing;
 
 					.tooltip {
 						visibility: visible;

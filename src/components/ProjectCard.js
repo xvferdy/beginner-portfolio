@@ -25,7 +25,6 @@ const handleClick = () => {
 };
 
 function ProjectCard({ title, projectImg, desc, tags, repo, demo }) {
-	console.log(Boolean(demo));
 	return (
 		<div className="project-card">
 			<Card sx={{ maxWidth: "100%" }}>
@@ -49,6 +48,7 @@ function ProjectCard({ title, projectImg, desc, tags, repo, demo }) {
 						<Stack direction="row" spacing={1}>
 							{tags.map((tag) => (
 								<Chip
+									key={tag}
 									label={tag.toLowerCase()}
 									variant="outlined"
 									size="small"

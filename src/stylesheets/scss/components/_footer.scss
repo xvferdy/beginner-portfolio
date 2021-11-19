@@ -1,3 +1,4 @@
+@use '../helpers/' as *;
 //footer
 .footer {
 	// height: 8rem;
@@ -6,8 +7,8 @@
 	// height: 80px;
 	margin-top: -80px;
 	bottom: 0;
-	background-color: #1976d2;
-	color: #fff;
+	background-color: $primary-color;
+	color: $white-thing;
 	padding: 10px;
 	display: flex;
 	flex-direction: column;

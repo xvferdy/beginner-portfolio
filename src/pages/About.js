@@ -68,7 +68,7 @@ function About() {
 					</div>
 				</div>
 
-				<h3 className="about__header__sub-title">❝Dress to Impress❞</h3>
+				<h3 className="about__header__sub-title">❝ Dress to Impress ❞</h3>
 			</div>
 
 			<main className="about__content">
@@ -116,14 +116,24 @@ function About() {
 				</div>
 
 				<div className="about__content__socials">
-					<div class="social-icons">
-						<a class="social-icon social-icon--github">
+					<div className="social-icons">
+						<a
+							className="social-icon social-icon--github"
+							href="https://github.com/xvferdy"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							<GitHubIcon />
-							<div class="tooltip">Github</div>
+							<div className="tooltip">Github</div>
 						</a>
-						<a class="social-icon social-icon--steam">
+						<a
+							className="social-icon social-icon--steam"
+							href="https://steamcommunity.com/id/xvferdygamer"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							<SportsEsportsIcon />
-							<div class="tooltip">Steam</div>
+							<div className="tooltip">Steam</div>
 						</a>
 						{/* <a class="social-icon social-icon--twitter">
 							<div class="tooltip">Instagram</div>

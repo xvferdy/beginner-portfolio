@@ -30,6 +30,7 @@ function Sidebar({ isOpen, closeSidebar }) {
 							About
 						</NavLink>
 					</li>
+                         
 					<li className="sidebar__list__item">
 						<NavLink
 							className={(navData) =>

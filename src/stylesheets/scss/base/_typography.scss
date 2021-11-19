@@ -1,24 +1,32 @@
 @use "../helpers" as *;
 
 h1 {
-	text-align: center;
+	display: flex;
+	justify-content: center;
 	font-weight: map-get($font-weights, regular);
+	position: relative;
+
+	&::before {
+		content: "";
+		position: absolute;
+		// left: 200px;
+		bottom: 0;
+		width: 175px;
+		height: 14px;
+		transform: skew(-10deg, -3deg);
+		// transform: rotate(-4deg);
+		background: darken($secondary-color, 10%);
+
+		z-index: -1;
+	}
+
 	@include display(tab-port) {
 		font-size: 28px;
 		// padding: 0 2rem;
 		// margin-bottom: 80px;
 	}
 }
-h2 {
-	// font-weight: map-get($font-weights, regular);
-	// margin-top: 20px;
-	// text-align: center;
-	// @include display(tab-port) {
-	// 	font-size: 20px;
-	// 	// padding: 0 2rem;
-	// 	// margin-bottom: 80px;
-	// }
-}
+
 h3 {
 	font-weight: map-get($font-weights, regular);
 	margin-top: 20px;
@@ -26,6 +34,7 @@ h3 {
 	// text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em pink, 0 0 0.2em pink;
 	text-shadow: 1px 1px 2px lightgray;
 	text-align: center;
+
 	@include display(tab-port) {
 		font-size: 17px;
 		margin-bottom: 30px;
@@ -43,10 +52,12 @@ a {
 		text-decoration: underline;
 	}
 }
+
 p {
 	// font-weight: map-get($font-weights, regular);
 	line-height: 25px;
 }
+
 h5 {
 	font-weight: map-get($font-weights, medium);
 }

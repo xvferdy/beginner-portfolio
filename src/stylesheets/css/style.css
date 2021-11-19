@@ -11,6 +11,7 @@
 body {
   box-sizing: border-box;
   background-color: #eff4f6;
+  background-color: black;
   background-image: url("../../assets/mybg13.png");
   background-position: bottom;
   background-attachment: fixed;
@@ -35,20 +36,32 @@ main p {
   .active {
     display: block;
     text-decoration: none;
-    background-color: #ffcb8e;
-    color: #931a25;
+    background-color: #42dee1;
+    color: #1976d2;
     padding: 10px 20px;
     border-radius: 0.25rem;
   }
   .active:hover {
-    background-color: #931a25;
-    color: #ffcb8e;
+    background-color: #1976d2;
+    color: #adff2f;
   }
 }
 
 h1 {
-  text-align: center;
+  display: flex;
+  justify-content: center;
   font-weight: 400;
+  position: relative;
+}
+h1::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 175px;
+  height: 14px;
+  transform: skew(-10deg, -3deg);
+  background: #98fb00;
+  z-index: -1;
 }
 @media only screen and (max-width: 900px) {
   h1 {
@@ -88,20 +101,26 @@ h5 {
 }
 
 .navbar {
-  background-color: #eff4f6;
   background-color: #1976d2;
+  color: #fff;
   box-shadow: 0 0.1px 2px rgba(0, 0, 0, 0.2);
   position: sticky;
   top: 0;
   z-index: 2;
 }
 .navbar__name {
-  color: #931a25;
+  color: #1976d2;
   color: #fff;
-  text-decoration: none;
   font-size: 25px;
-  font-weight: bold;
+  font-weight: 700;
   font-style: italic;
+  transition: 0.3s linear;
+}
+.navbar__name:hover {
+  text-decoration: none;
+  color: #adff2f;
+  text-shadow: 1px 1px 4px #42dee1;
+  letter-spacing: 2px;
 }
 .navbar__list {
   display: flex;
@@ -111,7 +130,7 @@ h5 {
   list-style: none;
 }
 .navbar__list__item__link {
-  color: #931a25;
+  color: #1976d2;
   color: #fff;
   text-decoration: none;
 }
@@ -134,9 +153,13 @@ h5 {
     align-items: center;
     cursor: pointer;
   }
+  .navbar__button:hover {
+    font-style: italic;
+    text-shadow: 1px 1px 4px #42dee1;
+  }
   .navbar__button__component {
-    display: block;
-    font-size: 25px;
+    font-size: 20px;
+    transform: scale(1.4);
   }
 }
 .navbar__container {
@@ -154,26 +177,26 @@ h5 {
   height: 100%;
   top: 0;
   left: 0;
-  z-index: 2;
-  background-color: #625261;
+  z-index: 4;
+  background-color: #1b2838;
   opacity: 0.4;
 }
 
 .sidebar {
   display: none;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
   .sidebar {
     display: block;
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 4;
+    z-index: 5;
+    width: 45%;
     height: 100%;
     padding: 4rem 2rem;
     transition: transform 0.3s ease-out;
     background-color: #eff4f6;
-    background-color: rosybrown;
   }
   .sidebar__list {
     list-style: none;
@@ -184,14 +207,19 @@ h5 {
   .sidebar__list__item__link {
     display: block;
     text-decoration: none;
-    background-color: #adff2f;
-    color: #931a25;
+    background-color: #1976d2;
+    color: #fff;
     padding: 10px 20px;
     border-radius: 0.25rem;
   }
   .sidebar__list__item__link:hover {
-    background-color: #931a25;
-    color: #ffcb8e;
+    background-color: #1976d2;
+    color: #adff2f;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .sidebar {
+    width: 65%;
   }
 }
 .sidebar--open {
@@ -234,6 +262,18 @@ h5 {
 .skill-card:hover {
   transform: translateY(-5px);
 }
+.skill-card__coming {
+  position: absolute;
+}
+
+.under-construction {
+  height: 45px;
+  background-color: #fbeae5;
+  font-size: 14px;
+  color: black;
+  display: grid;
+  place-items: center;
+}
 
 .about__header__profile {
   display: flex;
@@ -253,7 +293,7 @@ h5 {
 .about__header__profile__status__sub-name {
   color: #555;
   font-size: small;
-  text-shadow: 1px 1px 2px white;
+  text-shadow: 1px 1px 2px #fff;
 }
 .about__content a {
   color: #5a9500;
@@ -375,6 +415,7 @@ h5 {
 }
 .home__gif img {
   max-width: 260px;
+  box-shadow: rgba(137, 226, 0, 0.685) 0px 5px, rgba(137, 226, 0, 0.3) 0px 10px, rgba(137, 226, 0, 0.2) 0px 15px, rgba(137, 226, 0, 0.1) 0px 20px, rgba(137, 226, 0, 0.05) 0px 25px;
 }
 
 /*# sourceMappingURL=style.css.map */

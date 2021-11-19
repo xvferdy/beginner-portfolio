@@ -1,10 +1,18 @@
 import github from "../assets/github.png";
 import sass from "../assets/sass.png";
+import sass2 from "../assets/sass2.png";
 import nodejs from "../assets/nodejs.png";
 import vsc from "../assets/vsc.png";
+import vscode from "../assets/vscode.png";
 import js from "../assets/js.png";
+import js1 from "../assets/js1.png";
 import react from "../assets/react.png";
+import react1 from "../assets/react1.png";
 import git from "../assets/git.png";
+import git1 from "../assets/git1.png";
+import redux from "../assets/redux.png";
+import netlify from "../assets/netlify.png";
+import express from "../assets/express.png";
 
 // project thumbs
 import thumb1 from "../assets/thumb1.png";
@@ -18,32 +26,54 @@ import thumb7 from "../assets/thumb7.png";
 const data = {
 	skills: [
 		{
-			title: "Github",
-			image: github,
+			title: "Visual Studio Code",
+			image: vscode,
+			status: "learning",
+		},
+		{
+			title: "Git",
+			image: git1,
+			status: "learning",
+		},
+		{
+			title: "Javascript",
+			image: js1,
+			status: "learning",
 		},
 		{
 			title: "Sass",
-			image: sass,
+			image: sass2,
+			status: "learning",
+		},
+		{
+			title: "Github",
+			image: github,
+			status: "learning",
 		},
 		{
 			title: "Node Js",
 			image: nodejs,
+			status: "learning",
 		},
 		{
-			title: "Visual Studio Code",
-			image: vsc,
+			title: "React JS",
+			image: react1,
+			status: "learning",
 		},
 		{
-			title: "Git",
-			image: git,
+			title: "Netlify",
+			image: netlify,
+			status: "learning",
 		},
 		{
-			title: "React Js",
-			image: react,
+			title: "Redux",
+			image: redux,
+			status: "ptl", // plan to learn
 		},
 		{
-			title: "Javascript",
-			image: js,
+			title: "Express JS",
+			image: express,
+			status: "ptl", // plan to learn
 		},
 	],
 	projects: [
@@ -99,12 +129,13 @@ const data = {
 		{
 			title: "Previous Portfolio",
 			image: thumb7,
-			description: "2020 portfolio that I created before hiatus frow web",
+			description: "My 2020's portfolio that I created before hiatus frow web",
 			tags: ["React", "Material-UI"],
 			githubRepo: "https://github.com/xvferdy/my-portfolio",
 			demo: "https://xvferdy.github.io/my-portfolio/",
 		},
 	],
+	pagesUnderConstruction: ["/skills", "/"],
 };
 
 export default data;

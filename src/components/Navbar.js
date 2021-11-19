@@ -1,13 +1,18 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import UnderConstruction from "../components/UnderConstruction";
+import portfolioData from "../utils/portfolioData";
 
 function Navbar({ toggleSidebar }) {
+	const { pagesUnderConstruction } = portfolioData;
+	const { pathname } = useLocation();
 	return (
 		<nav className="navbar">
 			<div className="navbar__container">
 				{/* name */}
 				<Link className="navbar__name" to="/">
-					Berlianto
+					berlianto
 				</Link>
 				{/* list */}
 				<ul className="navbar__list">
@@ -47,6 +52,7 @@ function Navbar({ toggleSidebar }) {
 					<div className="navbar__button__component">&#9776;</div>
 				</div>
 			</div>
+			{pagesUnderConstruction.includes(pathname) && <UnderConstruction />}
 		</nav>
 	);
 }
