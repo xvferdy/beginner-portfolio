@@ -1,4 +1,5 @@
 import React from "react";
+
 import SkillCard from "../components/SkillCard";
 import portfolioData from "../utils/portfolioData";
 import Skeleton from "@mui/material/Skeleton";

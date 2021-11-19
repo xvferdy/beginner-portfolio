@@ -11,7 +11,7 @@
 body {
   box-sizing: border-box;
   background-color: #eff4f6;
-  background-image: url("../../assets/mybg13.png");
+  background-image: url("../../assets/mybg0.png");
   background-position: bottom;
   background-attachment: fixed;
 }
@@ -82,6 +82,10 @@ h3 {
   }
 }
 
+h5 {
+  font-weight: 500;
+}
+
 a {
   color: #adff2f;
   font-weight: 700;
@@ -93,10 +97,6 @@ a:hover {
 
 p {
   line-height: 25px;
-}
-
-h5 {
-  font-weight: 500;
 }
 
 .navbar {
@@ -255,14 +255,14 @@ h5 {
   border-radius: 8px;
   transition: transform 0.3s linear;
 }
-.skill-card img {
-  width: 100px;
-}
 .skill-card:hover {
   transform: translateY(-5px);
 }
 .skill-card__coming {
   position: absolute;
+}
+.skill-card img {
+  width: 100px;
 }
 
 .under-construction {
@@ -405,7 +405,7 @@ h5 {
 }
 
 .home {
-  margin-top: 20vh;
+  margin-top: 10vh;
 }
 .home__gif {
   margin: 20px;

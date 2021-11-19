@@ -1,6 +1,4 @@
 import React from "react";
-import CopyrightIcon from "@mui/icons-material/Copyright";
-import GitHubIcon from "@mui/icons-material/GitHub";
 
 function Footer() {
 	return (

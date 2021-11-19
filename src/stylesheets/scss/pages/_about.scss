@@ -31,7 +31,6 @@
 			// h3 typography
 		}
 	}
-
 	&__content {
 		a {
 			color: darken($secondary-color, 30%);
@@ -49,6 +48,7 @@
 			.social-icons {
 				display: flex;
 			}
+			// https://codepen.io/jonmilner/pen/bfkKF
 			.social-icon {
 				display: flex;
 				align-items: center;
@@ -56,16 +56,12 @@
 				position: relative;
 				width: 40px;
 				height: 40px;
-				// margin: 0 0.5rem;
 				margin-right: 0.5rem;
 				border-radius: 50%;
 				cursor: pointer;
-				// font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-				// text-decoration: none;
 				transition: all 0.15s ease;
 				&:hover {
 					color: $white-thing;
-
 					.tooltip {
 						visibility: visible;
 						opacity: 1;
@@ -90,14 +86,12 @@
 				position: absolute;
 				top: 0;
 				left: 50%;
-				// padding: 0.8rem 1rem;
 				padding: 5px;
 				border-radius: 5px;
 				font-size: 0.8rem;
 				font-weight: bold;
 				opacity: 0;
 				pointer-events: none;
-				// text-transform: uppercase;
 				transform: translate(-50%, -100%);
 				transition: all 0.3s ease;
 				z-index: 1;

@@ -18,14 +18,14 @@ body {
 	box-sizing: border-box;
 	background-color: $fourth-color;
 	// background-color: black;
-	background-image: url("../../assets/mybg13.png");
+	background-image: url("../../assets/mybg0.png");
 	// background-size: cover;
 	background-position: bottom;
 	// background-repeat: no-repeat;
-
 	background-attachment: fixed;
 }
 
+// FIXME: move to typography?
 main {
 	p {
 		padding-bottom: 20px;
@@ -37,12 +37,10 @@ main {
 	max-width: 1080px;
 	padding: 20px;
 	margin: 10px auto;
-
 	// https://css-tricks.com/couple-takes-sticky-footer/
 	min-height: calc(100vh - 70px);
 	margin-bottom: 90px;
 
-	// padding: 0 8rem;
 	@include display(tab-port) {
 		// font-size: smaller;
 		// padding: 20px 40px;
@@ -54,7 +52,7 @@ main {
 	}
 }
 
-// navlink for navbar & sidebar
+// FIXME: navlink for navbar & sidebar (harus copy lagi style defaultnya + yg mau dirubah)
 .active {
 	color: $secondary-color;
 	text-decoration: none;

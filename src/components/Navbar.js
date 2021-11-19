@@ -1,6 +1,6 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
-import { useLocation } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
+
 import UnderConstruction from "../components/UnderConstruction";
 import portfolioData from "../utils/portfolioData";
 

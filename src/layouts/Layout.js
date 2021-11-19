@@ -6,7 +6,6 @@ function Layout({ children }) {
 	return (
 		<Fragment>
 			<Navigation />
-
 			<div className="pages">{children}</div>
 		</Fragment>
 	);

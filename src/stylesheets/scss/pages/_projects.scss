@@ -12,10 +12,6 @@
 			@include display(phone) {
 				grid-template-columns: repeat(1, 1fr);
 			}
-			// padding: 0 5px;
-			// place-items: center;
 		}
-
-		// background-color: rgb(19, 139, 139);
 	}
 }

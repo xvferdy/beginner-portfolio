@@ -7,14 +7,12 @@
 	position: sticky;
 	top: 0;
 	z-index: 2;
-
 	&__name {
 		color: $primary-color;
 		color: $white-thing;
 		font-size: 25px;
 		font-weight: map-get($font-weights, bold);
 		font-style: italic;
-
 		transition: 0.3s linear;
 		&:hover {
 			text-decoration: none;
@@ -23,7 +21,6 @@
 			letter-spacing: 2px;
 		}
 	}
-
 	&__list {
 		display: flex;
 		justify-content: space-between;
@@ -31,7 +28,6 @@
 		// flex-basis: 40%;
 		width: 230px;
 		list-style: none;
-
 		&__item {
 			&__link {
 				color: $primary-color;
@@ -48,33 +44,23 @@
 	}
 	&__button {
 		display: none;
-
 		@include display(phone) {
 			display: flex;
 			flex-direction: column;
 			justify-content: space-between;
 			align-items: center;
 			cursor: pointer;
-
-			// height: 30px;
-			// width: 50px;
-
-			// background-color: purple;
 			&:hover {
 				font-style: italic;
 				text-shadow: 1px 1px 4px $third-color;
 			}
-
 			&__component {
-				// display: block;
 				font-size: 20px;
 				transform: scale(1.4);
-				// height: 100px;
-				// width: 100%;
-				// background-color: $primary-color;
 			}
 		}
 	}
+
 	&__container {
 		display: flex;
 		justify-content: space-between;

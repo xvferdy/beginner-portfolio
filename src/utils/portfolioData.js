@@ -1,15 +1,11 @@
+// skill imgs
 import github from "../assets/github.png";
 import sass from "../assets/sass.png";
-import sass2 from "../assets/sass2.png";
 import nodejs from "../assets/nodejs.png";
-import vsc from "../assets/vsc.png";
 import vscode from "../assets/vscode.png";
 import js from "../assets/js.png";
-import js1 from "../assets/js1.png";
 import react from "../assets/react.png";
-import react1 from "../assets/react1.png";
 import git from "../assets/git.png";
-import git1 from "../assets/git1.png";
 import redux from "../assets/redux.png";
 import netlify from "../assets/netlify.png";
 import express from "../assets/express.png";
@@ -32,17 +28,17 @@ const data = {
 		},
 		{
 			title: "Git",
-			image: git1,
+			image: git,
 			status: "learning",
 		},
 		{
 			title: "Javascript",
-			image: js1,
+			image: js,
 			status: "learning",
 		},
 		{
 			title: "Sass",
-			image: sass2,
+			image: sass,
 			status: "learning",
 		},
 		{
@@ -57,7 +53,7 @@ const data = {
 		},
 		{
 			title: "React JS",
-			image: react1,
+			image: react,
 			status: "learning",
 		},
 		{

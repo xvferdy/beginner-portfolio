@@ -1,10 +1,8 @@
 @use '../helpers/' as *;
-//footer
+
 .footer {
-	// height: 8rem;
 	clear: both;
 	position: relative;
-	// height: 80px;
 	margin-top: -80px;
 	bottom: 0;
 	background-color: $primary-color;
@@ -13,7 +11,6 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-
 	align-items: center;
 	z-index: 3;
 }

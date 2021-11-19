@@ -3,17 +3,12 @@ import React from "react";
 import Avatar from "@mui/material/Avatar";
 import Badge from "@mui/material/Badge";
 import { styled } from "@mui/material/styles";
-import FavoriteIcon from "@mui/icons-material/Favorite";
-import RedditIcon from "@mui/icons-material/Reddit";
-import TelegramIcon from "@mui/icons-material/Telegram";
-
-import myAvatar from "../assets/gabe.jpg";
-import tdsmaru from "../assets/tdsmaru.JPG";
-import signature from "../assets/signature2.png";
 import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
-// material
+import tdsmaru from "../assets/tdsmaru.JPG";
+import signature from "../assets/signature2.png";
+
 const StyledBadge = styled(Badge)(({ theme }) => ({
 	"& .MuiBadge-badge": {
 		backgroundColor: "#44b700",
@@ -135,21 +130,6 @@ function About() {
 							<SportsEsportsIcon />
 							<div className="tooltip">Steam</div>
 						</a>
-						{/* <a class="social-icon social-icon--twitter">
-							<div class="tooltip">Instagram</div>
-						</a>
-						<a class="social-icon social-icon--dribbble">
-							<div class="tooltip">Twitter</div>
-						</a>
-						<a class="social-icon social-icon--instagram">
-							<div class="tooltip">Instagram</div>
-						</a>
-						<a class="social-icon social-icon--linkedin">
-							<div class="tooltip">LinkedIn</div>
-						</a>
-						<a class="social-icon social-icon--facebook">
-							<div class="tooltip">Instagram</div>
-						</a> */}
 					</div>
 				</div>
 			</main>

@@ -1,24 +1,17 @@
 .home {
-	// height: 80vh;
-	// background-color: burlywood;
+	// height: 74vh;
 	// display: flex;
 	// flex-direction: column;
 	// justify-content: center;
 	// align-items: center;
 
-	margin-top: 20vh;
+	margin-top: 10vh;
 	&__gif {
 		margin: 20px;
 		display: flex;
 		justify-content: center;
-
 		img {
 			max-width: 260px;
-
-			// box-shadow: rgba(240, 46, 170, 0.4) 0px 5px,
-			// 	rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px,
-			// 	rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
-
 			box-shadow: rgba(137, 226, 0, 0.685) 0px 5px,
 				rgba(137, 226, 0, 0.3) 0px 10px, rgba(137, 226, 0, 0.2) 0px 15px,
 				rgba(137, 226, 0, 0.1) 0px 20px, rgba(137, 226, 0, 0.05) 0px 25px;
