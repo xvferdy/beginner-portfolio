@@ -1,5 +1,5 @@
-// import "./stylesheets/css/style.css";
-import "./stylesheets/css/style2.css";
+import "./stylesheets/css/style.css";
+// import "./stylesheets/css/style2.css";
 import Layout from "./layouts/Layout";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
@@ -15,7 +15,7 @@ import Footer from "./components/Footer";
 function App() {
 	return (
 		<>
-			{/* <Router>
+			<Router>
 				<Layout>
 					<Routes>
 						<Route path="/" element={<Home />} />
@@ -26,7 +26,7 @@ function App() {
 					</Routes>
 				</Layout>
 			</Router>
-			<Footer /> */}
+			<Footer />
 		</>
 	);
 }

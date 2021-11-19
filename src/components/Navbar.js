@@ -7,6 +7,7 @@ import portfolioData from "../utils/portfolioData";
 function Navbar({ toggleSidebar }) {
 	const { pagesUnderConstruction } = portfolioData;
 	const { pathname } = useLocation();
+
 	return (
 		<nav className="navbar">
 			<div className="navbar__container">
@@ -52,7 +53,7 @@ function Navbar({ toggleSidebar }) {
 					<div className="navbar__button__component">&#9776;</div>
 				</div>
 			</div>
-			{pagesUnderConstruction.includes(pathname) && <UnderConstruction />}
+			{pagesUnderConstruction.includes(pathname) ? <UnderConstruction /> : null}
 		</nav>
 	);
 }
