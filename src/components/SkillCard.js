@@ -1,6 +1,6 @@
 import React from "react";
 
-import cs from "../assets/cs3-min.png";
+import cs3 from "../assets/cs3-min.png";
 
 function SkillCard({ title, image, status }) {
 	return (
@@ -10,7 +10,7 @@ function SkillCard({ title, image, status }) {
 				<img
 					className="skill-card__coming"
 					title={title}
-					src={cs}
+					src={cs3}
 					alt={title}
 				/>
 			)}

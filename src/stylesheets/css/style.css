@@ -242,6 +242,15 @@ p {
   align-items: center;
   z-index: 3;
 }
+@media only screen and (max-width: 370px) {
+  .footer {
+    font-size: 13px;
+  }
+}
+
+.project-card {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
 
 .skill-card {
   flex-basis: 30%;
@@ -272,6 +281,11 @@ p {
   color: black;
   display: grid;
   place-items: center;
+}
+@media only screen and (max-width: 370px) {
+  .under-construction {
+    font-size: 12px;
+  }
 }
 
 .about__header__profile {
@@ -408,13 +422,43 @@ p {
   margin-top: 10vh;
 }
 .home__gif {
-  margin: 20px;
+  margin: 25px;
   display: flex;
   justify-content: center;
 }
 .home__gif img {
-  max-width: 260px;
+  min-width: 270px;
   box-shadow: rgba(137, 226, 0, 0.685) 0px 5px, rgba(137, 226, 0, 0.3) 0px 10px, rgba(137, 226, 0, 0.2) 0px 15px, rgba(137, 226, 0, 0.1) 0px 20px, rgba(137, 226, 0, 0.05) 0px 25px;
+}
+@media only screen and (max-width: 600px) {
+  .home__gif img {
+    min-width: 250px;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .home__gif img {
+    min-width: 230px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .home {
+    margin-top: 7vh;
+  }
+}
+.home .AnimatedEllipsis {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: bottom;
+}
+.home .AnimatedEllipsis::after {
+  display: inline-block;
+  content: "...";
+  animation: AnimatedEllipsis-keyframes 1.2s steps(4, jump-none) infinite;
+}
+@keyframes AnimatedEllipsis-keyframes {
+  0% {
+    transform: translateX(-100%);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,3 +1,5 @@
+@use '../helpers/' as *;
+
 .home {
 	// height: 74vh;
 	// display: flex;
@@ -7,14 +9,41 @@
 
 	margin-top: 10vh;
 	&__gif {
-		margin: 20px;
+		margin: 25px;
 		display: flex;
 		justify-content: center;
 		img {
-			max-width: 260px;
+			min-width: 270px;
+
 			box-shadow: rgba(137, 226, 0, 0.685) 0px 5px,
 				rgba(137, 226, 0, 0.3) 0px 10px, rgba(137, 226, 0, 0.2) 0px 15px,
 				rgba(137, 226, 0, 0.1) 0px 20px, rgba(137, 226, 0, 0.05) 0px 25px;
+			@include display(phone) {
+				min-width: 250px;
+			}
+			@include display(sm-phone) {
+				min-width: 230px;
+			}
+		}
+	}
+	@include display(phone) {
+		margin-top: 7vh;
+	}
+
+	// primer css
+	.AnimatedEllipsis {
+		display: inline-block;
+		overflow: hidden;
+		vertical-align: bottom;
+		&::after {
+			display: inline-block;
+			content: "...";
+			animation: AnimatedEllipsis-keyframes 1.2s steps(4, jump-none) infinite;
+		}
+		@keyframes AnimatedEllipsis-keyframes {
+			0% {
+				transform: translateX(-100%);
+			}
 		}
 	}
 }

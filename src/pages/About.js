@@ -6,7 +6,7 @@ import { styled } from "@mui/material/styles";
 import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
-import tdsmaru from "../assets/tdsmaru.JPG";
+import me4x from "../assets/me4x.jpg";
 import signature from "../assets/signature2.png";
 
 const StyledBadge = styled(Badge)(({ theme }) => ({
@@ -50,7 +50,7 @@ function About() {
 							anchorOrigin={{ vertical: "bottom", horizontal: "right" }}
 							variant="dot"
 						>
-							<Avatar alt="Me" src={tdsmaru} sx={{ width: 56, height: 56 }} />
+							<Avatar alt="Me" src={me4x} sx={{ width: 56, height: 56 }} />
 						</StyledBadge>
 					</div>
 					<div className="about__header__profile__status">
@@ -68,35 +68,108 @@ function About() {
 
 			<main className="about__content">
 				<p>
-					asdasd Voluptate velit ad duis sunt proident commodo qui deserunt
-					reprehenderit amet aliqua. Quis labore in in culpa sit minim in non
-					aute eu ad velit amet. Ipsum proident tempor tempor in deserunt
-					exercitation officia voluptate ad. Pariatur cillum dolore laboris
-					Lorem dolor pariatur. asdasd Voluptate velit ad duis sunt proident
-					commodo qui
-				</p>
-				<p>
-					asdasd Voluptate velit ad duis sunt proident commodo qui deserunt
-					reprehenderit amet aliqua. Quis labore in in culpa sit minim in non
-					aute eu ad velit amet. Ipsum proident tempor tempor in deserunt
-					exercitation officia'{" "}
+					Hello, my name is Berlianto, I was born on June 12, 1996 in{" "}
 					<a
 						target="_blank"
 						rel="noopener noreferrer"
-						href="mailto:berlianto.ferdynand@gmail.com"
+						href="https://en.wikipedia.org/wiki/Tembagapura"
 					>
-						tempor
+						Tembagapura
 					</a>{" "}
-					ad. Pariatur cillum dolore laboris Lorem dolor pariatur. asdasd
-					Voluptate velit ad duis sunt proident commodo qui
+					,
+					<a
+						target="_blank"
+						rel="noopener noreferrer"
+						href="https://en.wikipedia.org/wiki/Timika"
+					>
+						Timika Papua
+					</a>
+					. I spent my childhood in my beloved city in <br />
+					<a
+						target="_blank"
+						rel="noopener noreferrer"
+						href="https://id.wikipedia.org/wiki/Kuala_Kencana,_Mimika"
+					>
+						Kuala-Kencana
+					</a>
+					, starting from kindergarten to Junior High School. After graduating
+					from Junior High School I'm still not familiar with the internet but I
+					really like playing single player games on my computer (the old box
+					monitors).
 				</p>
 				<p>
-					sum proident tempor tempor in deserunt exercitation officia voluptate
-					ad. Pariatur cillum dolore laboris Lorem dolor pariatur. asdasd
-					Voluptate velit ad duis sunt proident commodo qui
+					When I entered high school I moved to{" "}
+					<a
+						target="_blank"
+						rel="noopener noreferrer"
+						href="https://en.wikipedia.org/wiki/North_Toraja_Regency"
+					>
+						North Toraja
+					</a>
+					,{" "}
+					<a
+						target="_blank"
+						rel="noopener noreferrer"
+						href="https://gor.wikipedia.org/wiki/Sulawesi_Selatan"
+					>
+						South Sulawesi
+					</a>
+					. I live in a Dormitory and there I experiencing using the internet
+					for the first time. While studying in high school I learned the{" "}
+					<a
+						target="_blank"
+						rel="noopener noreferrer"
+						href="https://en.wikipedia.org/wiki/Pascal_(programming_language)"
+					>
+						Pascal
+					</a>{" "}
+					programming language and I wasn't really interested for some reason.{" "}
 				</p>
 				<p>
-					You can reach me out via email at{" "}
+					At the end of 2014 I had the opportunity to continue my education to
+					university. I entered{" "}
+					<a
+						target="_blank"
+						rel="noopener noreferrer"
+						href="https://id.wikipedia.org/wiki/Universitas_Gunadarma"
+					>
+						Gunadarma University
+					</a>{" "}
+					which is located in{" "}
+					<a
+						target="_blank"
+						rel="noopener noreferrer"
+						href="https://en.wikipedia.org/wiki/Depok"
+					>
+						Depok
+					</a>{" "}
+					and choose{" "}
+					<a
+						target="_blank"
+						rel="noopener noreferrer"
+						href="https://id.wikipedia.org/wiki/Informatika"
+					>
+						Technical Information/Computer Science
+					</a>{" "}
+					(I don't know why I chose this). During my studies I lived alone in
+					the Margonda area where my{" "}
+					<a
+						target="_blank"
+						rel="noopener noreferrer"
+						href="https://id.wikipedia.org/wiki/Indekos"
+					>
+						"kosan"
+					</a>{" "}
+					and my campus were very close. In class we learn a lot about the world
+					of informatics technology especially the software section, there is a
+					lot of class we studied there but I really like the web development
+					class even though I get the class at the last of the semester. I
+					graduated in December 2019 and got my graduation ceremony in April
+					2020.
+				</p>
+				<p>
+					Thanks for reading my little story, and if want to reach me you can
+					email me at{" "}
 					<a
 						target="_blank"
 						rel="noopener noreferrer"

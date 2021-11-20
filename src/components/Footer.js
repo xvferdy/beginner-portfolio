@@ -4,13 +4,13 @@ function Footer() {
 	return (
 		<footer className="footer">
 			<h5>
-				Made with ❤️ by{" "}
+				Made with 💗 by{" "}
 				<a
 					href="https://reactjs.org/"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					ReactJS
+					React
 				</a>
 				, {"  "}
 				<a
