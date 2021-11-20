@@ -1,0 +1,13 @@
+@use '../helpers/' as *;
+
+.under-construction {
+	height: 35px;
+	background-color: #fbeae5;
+	font-size: 14px;
+	color: black;
+	display: grid;
+	place-items: center;
+	@include display(sm-phone) {
+		font-size: 12px;
+	}
+}

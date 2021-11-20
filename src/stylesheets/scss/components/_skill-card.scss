@@ -1,0 +1,22 @@
+.skill-card {
+	flex-basis: 30%;
+	height: 100px;
+	background-color: #fafafa;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+	border-radius: 8px;
+	transition: transform 0.3s linear;
+
+	&:hover {
+		transform: translateY(-5px);
+	}
+	&__coming {
+		position: absolute;
+	}
+	img {
+		width: 100px;
+	}
+}

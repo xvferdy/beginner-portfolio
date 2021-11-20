@@ -1,0 +1,51 @@
+@use "../helpers" as *;
+
+h1 {
+	display: flex;
+	justify-content: center;
+	font-weight: map-get($font-weights, regular);
+	position: relative;
+	&::before {
+		content: "";
+		position: absolute;
+		bottom: 0;
+		width: 175px;
+		height: 14px;
+		transform: skew(-10deg, -3deg);
+		background: darken($secondary-color, 10%);
+		z-index: -1;
+	}
+	@include display(tab-port) {
+		font-size: 28px;
+	}
+}
+
+h3 {
+	font-weight: map-get($font-weights, regular);
+	margin-top: 20px;
+	margin-bottom: 50px;
+	text-shadow: 1px 1px 2px lightgray;
+	text-align: center;
+	@include display(tab-port) {
+		font-size: 17px;
+		margin-bottom: 30px;
+	}
+}
+
+h5 {
+	font-weight: map-get($font-weights, medium);
+}
+
+a {
+	color: $secondary-color;
+	font-weight: map-get($font-weights, bold);
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+p {
+	// font-weight: map-get($font-weights, regular);
+	line-height: 25px;
+}

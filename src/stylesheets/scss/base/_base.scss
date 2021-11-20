@@ -1,1 +1,73 @@
-//reset
+@use "../helpers" as *;
+
+// reset
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+	font-family: $primary-font;
+
+	// border: 1px solid gray;
+	// overflow-x: hidden;
+	// transition: 0.3s;
+}
+
+body {
+	box-sizing: border-box;
+	background-color: $fourth-color;
+	// background-color: black;
+	background-image: url("../../assets/pngfind.com-dot-png-1207525.png");
+
+	// background-size: cover;
+	background-position: bottom;
+	// background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+// FIXME: move to typography?
+main {
+	p {
+		padding-bottom: 20px;
+	}
+}
+
+// router pages
+.pages {
+	max-width: 1080px;
+	padding: 20px;
+	margin: 10px auto;
+	// https://css-tricks.com/couple-takes-sticky-footer/
+	min-height: calc(100vh - 70px);
+	margin-bottom: 90px;
+
+	@include display(tab-port) {
+		// font-size: smaller;
+		// padding: 20px 40px;
+		// margin-bottom: 80px;
+	}
+	@include display(phone) {
+		// padding: 20px;
+		// margin-bottom: 80px;
+	}
+}
+
+// FIXME: navlink for navbar & sidebar (harus copy lagi style defaultnya + yg mau dirubah)
+.active {
+	color: $secondary-color;
+	text-decoration: none;
+
+	@include display(phone) {
+		display: block;
+		text-decoration: none;
+		background-color: $third-color;
+		color: $primary-color;
+		padding: 10px 20px;
+		border-radius: 0.25rem;
+		&:hover {
+			background-color: $primary-color;
+			color: $secondary-color;
+		}
+	}
+}

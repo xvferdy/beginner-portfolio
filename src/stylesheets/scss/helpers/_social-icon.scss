@@ -1,0 +1,13 @@
+@use "./colors" as *;
+
+@mixin social-icon($color) {
+	background: $color;
+	color: $white-thing;
+	.tooltip {
+		background: $color;
+		color: currentColor;
+		&:after {
+			border-top-color: $color;
+		}
+	}
+}

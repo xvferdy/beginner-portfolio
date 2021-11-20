@@ -1,3 +1,17 @@
-h1 {
-	color: pink;
-}
+// global
+@use "base/base";
+@use "base/typography";
+
+// components
+@use "./components/navbar";
+@use "./components/sidebar";
+@use "./components/footer";
+@use "./components/project-card";
+@use './components/skill-card';
+@use './components/under-construction';
+
+// pages
+@use './pages/about';
+@use './pages/projects';
+@use './pages/skills';
+@use './pages/home';
