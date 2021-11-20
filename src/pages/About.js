@@ -11,8 +11,8 @@ import signature from "../assets/signature2.png";
 
 const StyledBadge = styled(Badge)(({ theme }) => ({
 	"& .MuiBadge-badge": {
-		backgroundColor: "#44b700",
-		color: "#44b700",
+		backgroundColor: "#25d366",
+		color: "#25d366",
 		boxShadow: `0 0 0 2px ${theme.palette.background.paper}`,
 		"&::after": {
 			position: "absolute",
@@ -58,7 +58,7 @@ function About() {
 							Berlianto
 						</div>
 						<div className="about__header__profile__status__sub-name">
-							Guten morgen
+							Feeling good, man
 						</div>
 					</div>
 				</div>
@@ -75,8 +75,8 @@ function About() {
 						href="https://en.wikipedia.org/wiki/Tembagapura"
 					>
 						Tembagapura
-					</a>{" "}
-					,
+					</a>
+					,{" "}
 					<a
 						target="_blank"
 						rel="noopener noreferrer"
@@ -90,9 +90,9 @@ function About() {
 						rel="noopener noreferrer"
 						href="https://id.wikipedia.org/wiki/Kuala_Kencana,_Mimika"
 					>
-						Kuala-Kencana
+						Kuala-Kencana{" "}
 					</a>
-					, starting from kindergarten to Junior High School. After graduating
+					starting from kindergarten to Junior High School. After graduating
 					from Junior High School I'm still not familiar with the internet but I
 					really like playing single player games on my computer (the old box
 					monitors).
@@ -161,11 +161,11 @@ function About() {
 						"kosan"
 					</a>{" "}
 					and my campus were very close. In class we learn a lot about the world
-					of informatics technology especially the software section, there is a
-					lot of class we studied there but I really like the web development
-					class even though I get the class at the last of the semester. I
-					graduated in December 2019 and got my graduation ceremony in April
-					2020.
+					of informatics technology especially the software's lecture, there is
+					a lot of lecture we studied there but I really like the web
+					development class even though I get the class at the last of the
+					semester. I finish my final test at December 2019 and got my
+					graduation ceremony at April 2020.
 				</p>
 				<p>
 					Thanks for reading my little story, and if want to reach me you can

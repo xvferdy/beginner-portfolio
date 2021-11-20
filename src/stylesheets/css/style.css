@@ -11,7 +11,7 @@
 body {
   box-sizing: border-box;
   background-color: #eff4f6;
-  background-image: url("../../assets/mybg0.png");
+  background-image: url("../../assets/pngfind.com-dot-png-1207525.png");
   background-position: bottom;
   background-attachment: fixed;
 }
@@ -275,7 +275,7 @@ p {
 }
 
 .under-construction {
-  height: 45px;
+  height: 35px;
   background-color: #fbeae5;
   font-size: 14px;
   color: black;
@@ -306,10 +306,9 @@ p {
 .about__header__profile__status__sub-name {
   color: #555;
   font-size: small;
-  text-shadow: 1px 1px 2px #fff;
 }
 .about__content a {
-  color: #5a9500;
+  color: #518600;
 }
 .about__content__signature {
   height: 100px;

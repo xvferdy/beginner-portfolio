@@ -23,7 +23,7 @@
 				&__sub-name {
 					color: $grey-thing;
 					font-size: small;
-					text-shadow: 1px 1px 2px #fff;
+					// text-shadow: 1px 1px 2px #fff;
 				}
 			}
 		}
@@ -33,7 +33,7 @@
 	}
 	&__content {
 		a {
-			color: darken($secondary-color, 30%);
+			color: darken($secondary-color, 33%);
 		}
 		&__signature {
 			height: 100px;
