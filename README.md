@@ -1,9 +1,15 @@
-> _New Readme_
 
-
+- [🌍 About the Project](#-about-the-project)
+  - [Live berlianto](#live-berlianto)
+  - [👀 Built With](#-built-with)
+- [📥 Getting Started](#-getting-started)
+  - [Prerequisites](#prerequisites)
+  - [File Structure Overview](#file-structure-overview)
+  - [📦 Installation](#-installation)
+- [👏 Acknowledgments](#-acknowledgments)
 
 ## 🌍 About the Project
-Ut quis ipsum et sint ullamco ut incididunt minim. Voluptate dolore cillum commodo laboris commodo eu est. Cupidatat aute irure occaecat cupidatat pariatur quis sunt sunt duis esse laboris. Pariatur occaecat commodo et irure nulla laborum.
+Trying to create the web portfolio again and store the latest small project as a coding exercise specifically for the frontend.
 
 **List of Beginner Project:**
 
@@ -19,22 +25,45 @@ Ut quis ipsum et sint ullamco ut incididunt minim. Voluptate dolore cillum commo
 ### 👀 Built With
 - React
 - Sass
+- ❤️
 - Material-UI
 
 ## 📥 Getting Started
 ### Prerequisites
 | [<img src="" alt="Node" />](https://nodejs.org/en/download/)</br>Node | [<img src="" alt="Npm" />](https://www.npmjs.com/)</br>Npm | [<img src="" alt="Git" />](https://git-scm.com/downloads)</br>Git | [<img src="" alt="Sass" />](https://sass-lang.com/dart-sass)</br>Dart Sass
 | --------- | --------- | --------- | --------- |
-| > v12.x | > v8.x | installed | > v2.14.x |
+| > v12.x | > v8.x | installed | ~ v1.43.x compiled with dart2js v2.14.4 |
 ### File Structure Overview
 ```
-new-projects
-├── client
-├── server
+beginner-portfolio
+├── node_modules
+├── public
+├── src
+│   ├── assets
+│   ├── components
+│   ├── layouts
+│   ├── pages
+│   ├── stylesheets
+│   │   ├── css
+│   │   └── scss
+│   │       ├── base
+│   │       ├── components
+│   │       ├── helpers
+│   │       ├── pages
+│   │       └── style.css 
+│   ├── utils
+│   ├── App.js
+│   └── index.js
+├── .env
+├── .env.sample
 ├── .gitignore
+├── netlify.toml
+├── package-lock.json
+├── package.json
 └── README.md
 ```
-## 📦 Installation
+
+### 📦 Installation
 ```
 npm install
 ```
@@ -53,5 +82,5 @@ npm start
 - `ect`
 
 <h3 align="right">
-      <a href="#tarot-of-marseilles-sass">To Top ⤴️</a>
+      <a href="#-about-the-project">To Top ⤴️</a>
 </h3>
