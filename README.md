@@ -1,3 +1,4 @@
+> ℹ️ So I haven't been code for 7 month and guess what.., when I want to make an application with ***Reactjs*** I don't even know how to import a things. LOL
 
 - [🌍 About the Project](#-about-the-project)
   - [Live berlianto](#live-berlianto)
@@ -9,7 +10,7 @@
 - [👏 Acknowledgments](#-acknowledgments)
 
 ## 🌍 About the Project
-Trying to create the web portfolio again and store the latest small project as a coding exercise specifically for the frontend.
+Trying to create the web portfolio again and store the latest ***small project*** as a coding exercise specifically for the frontend side.
 
 **List of Beginner Project:**
 
@@ -21,7 +22,7 @@ Trying to create the web portfolio again and store the latest small project as a
 - [🚩 [1] **how-to-be-a-millionaire**](https://github.com/xvferdy/how-to-be-a-millionaire "1")
 - [🚩 [0] **simple-static-website**](https://github.com/xvferdy/simple-static-website "0") 
 
-**[Demo](https://xvferdy.github.io/shopping-cart-my-ver/)** 🕶️
+**Preview** 🕶️
 <p align="">
   <img src="./src/assets/readme/overview.png">
 </p>
@@ -37,7 +38,7 @@ Trying to create the web portfolio again and store the latest small project as a
 ### Prerequisites
 | [<img src="src/assets/readme/Nodejs.png" alt="Node" />](https://nodejs.org/en/download/)</br>Node | [<img src="src/assets/readme/Npm.png" alt="Npm" />](https://www.npmjs.com/)</br>Npm | [<img src="src/assets/readme/Git.png" alt="Git" />](https://git-scm.com/downloads)</br>Git | [<img src="src/assets/readme/Sass.png" alt="Sass" />](https://sass-lang.com/dart-sass)</br>Dart Sass
 | --------- | --------- | --------- | --------- |
-| > v12.x | > v8.x | installed | ~ v1.43.x compiled with dart2js v2.14.4 |
+| ~v12.x | ~v8.x | installed | ~v1.43.x compiled with dart2js v2.14.4 |
 ### File Structure Overview
 ```
 beginner-portfolio
