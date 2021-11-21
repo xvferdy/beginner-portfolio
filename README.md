@@ -21,12 +21,17 @@ Trying to create the web portfolio again and store the latest small project as a
 - [🚩 [1] **how-to-be-a-millionaire**](https://github.com/xvferdy/how-to-be-a-millionaire "1")
 - [🚩 [0] **simple-static-website**](https://github.com/xvferdy/simple-static-website "0") 
 
+**[Demo](https://xvferdy.github.io/shopping-cart-my-ver/)** 🕶️
+<p align="">
+  <img src="./src/assets/readme/overview.png">
+</p>
+
 ### Live [berlianto](https://berlianto.netlify.app/)
 ### 👀 Built With
 - React
 - Sass
-- ❤️
 - Material-UI
+- 💙
 
 ## 📥 Getting Started
 ### Prerequisites
