@@ -1,5 +1,7 @@
-> ℹ️ So I haven't been code for 7 month and guess what.., when I want to make an application with ***Reactjs*** I don't even know how to import a things. LOL
+> ℹ️ <br>
+> So I haven't been code for 7 month and guess what.., when I want to make an application with ***Reactjs*** I don't even know how to import a things. LOL
 
+📍Table of Contents
 - [🌍 About the Project](#-about-the-project)
   - [Live berlianto](#live-berlianto)
   - [👀 Built With](#-built-with)
