@@ -91,5 +91,5 @@ npm start
 - [Google font](https://fonts.google.com/)
 
 <h3 align="right">
-      <a href="#-about-the-project">To Top ⤴️</a>
+      <a href="#beginner-portfolio">To Top ⤴️</a>
 </h3>
