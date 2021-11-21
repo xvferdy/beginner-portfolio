@@ -30,7 +30,7 @@ Trying to create the web portfolio again and store the latest small project as a
 
 ## 📥 Getting Started
 ### Prerequisites
-| [<img src="" alt="Node" />](https://nodejs.org/en/download/)</br>Node | [<img src="" alt="Npm" />](https://www.npmjs.com/)</br>Npm | [<img src="" alt="Git" />](https://git-scm.com/downloads)</br>Git | [<img src="" alt="Sass" />](https://sass-lang.com/dart-sass)</br>Dart Sass
+| [<img src="src/assets/readme/Nodejs.png" alt="Node" />](https://nodejs.org/en/download/)</br>Node | [<img src="src/assets/readme/Npm.png" alt="Npm" />](https://www.npmjs.com/)</br>Npm | [<img src="src/assets/readme/Git.png" alt="Git" />](https://git-scm.com/downloads)</br>Git | [<img src="src/assets/readme/Sass.png" alt="Sass" />](https://sass-lang.com/dart-sass)</br>Dart Sass
 | --------- | --------- | --------- | --------- |
 | > v12.x | > v8.x | installed | ~ v1.43.x compiled with dart2js v2.14.4 |
 ### File Structure Overview
