@@ -11,13 +11,13 @@ import netlify from "../assets/netlify.png";
 import express from "../assets/express.png";
 
 // project thumbs
-import thumb1 from "../assets/thumb1.png";
-import thumb2 from "../assets/thumb2.png";
-import thumb3 from "../assets/thumb3.png";
-import thumb4 from "../assets/thumb4.png";
-import thumb5 from "../assets/thumb5.png";
-import thumb6 from "../assets/thumb6.png";
-import thumb7 from "../assets/thumb7.png";
+import thumb1 from "../assets/thumb1.jpg";
+import thumb2 from "../assets/thumb2.jpg";
+import thumb3 from "../assets/thumb3.jpg";
+import thumb4 from "../assets/thumb4.jpg";
+import thumb5 from "../assets/thumb5.jpg";
+import thumb6 from "../assets/thumb6.jpg";
+import thumb7 from "../assets/thumb7.jpg";
 
 const data = {
 	skills: [
