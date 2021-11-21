@@ -1,7 +1,7 @@
 # beginner-portfolio
 
-> ℹ️ <br>
-> So I haven't been code for 7 month and guess what.., when I want to make an application with ***Reactjs*** I don't even know how to import a things. LOL
+> ℹ️ **Note**<br>
+> _So I haven't been code for 7 month and guess what.., when I want to make an application with **Reactjs** I don't even know how to import a things. LOL_
 
 ## 📍Table of Contents
 - [About the Project](#-about-the-project)
