@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-import myAvatar from "../assets/gabe.jpg";
+import welcome from "../assets/welcome.gif";
 import { randomIndex } from "../utils/randomIndex";
 
 function Home() {
@@ -22,7 +22,7 @@ function Home() {
 				);
 			} catch (err) {
 				console.log(err);
-				setGiphy(myAvatar);
+				setGiphy(welcome);
 			}
 			setIsloading(false);
 		};
