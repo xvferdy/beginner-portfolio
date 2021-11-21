@@ -1,15 +1,17 @@
+# beginner-portfolio
+
 > ℹ️ <br>
 > So I haven't been code for 7 month and guess what.., when I want to make an application with ***Reactjs*** I don't even know how to import a things. LOL
 
-📍Table of Contents
-- [🌍 About the Project](#-about-the-project)
-  - [Live berlianto](#live-berlianto)
-  - [👀 Built With](#-built-with)
-- [📥 Getting Started](#-getting-started)
+## 📍Table of Contents
+- [About the Project](#-about-the-project)
+  - [Live](#live-berlianto)
+  - [Built With](#-built-with)
+- [Getting Started](#-getting-started)
   - [Prerequisites](#prerequisites)
   - [File Structure Overview](#file-structure-overview)
   - [📦 Installation](#-installation)
-- [👏 Acknowledgments](#-acknowledgments)
+- [Acknowledgments](#-acknowledgments)
 
 ## 🌍 About the Project
 Trying to create the web portfolio again and store the latest ***small project*** as a coding exercise specifically for the frontend side.
@@ -87,7 +89,6 @@ npm start
 - [Primer CSS](https://primer.style/)
 - [E-signature](https://signaturely.com/online-signature/)
 - [Google font](https://fonts.google.com/)
-- `ect`
 
 <h3 align="right">
       <a href="#-about-the-project">To Top ⤴️</a>
