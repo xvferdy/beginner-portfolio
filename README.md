@@ -18,13 +18,13 @@ Trying to create the web portfolio again and store the latest ***small project**
 
 **List of Beginner Project:**
 
-- [🚩 `[6]` **previous-portfolio**](https://github.com/xvferdy/my-portfolio "6") 
-- [🚩 `[5]` **jojo-tarot**](https://github.com/xvferdy/tarot-of-marseilles-sass "5") 
-- [🚩 `[4]` **shopping-cart-app**](https://github.com/xvferdy/shopping-cart-my-ver "4") 
-- [🚩 `[3]` **simple-chat-app**](https://github.com/xvferdy/simple-chat-app "3") 
-- [🚩 `[2]` **simple-note**](https://github.com/xvferdy/simple-note "2") 
-- [🚩 `[1]` **how-to-be-a-millionaire**](https://github.com/xvferdy/how-to-be-a-millionaire "1")
-- [🚩 `[0]` **simple-static-website**](https://github.com/xvferdy/simple-static-website "0") 
+🔹 🚩 [`[6]` **previous-portfolio**](https://github.com/xvferdy/my-portfolio "6") <br>
+🔹 🚩 [`[5]` **jojo-tarot**](https://github.com/xvferdy/tarot-of-marseilles-sass "5") <br>
+🔹 🚩 [`[4]` **shopping-cart-app**](https://github.com/xvferdy/shopping-cart-my-ver "4") <br>
+🔹 🚩 [`[3]` **simple-chat-app**](https://github.com/xvferdy/simple-chat-app "3") <br>
+🔹 🚩 [`[2]` **simple-note**](https://github.com/xvferdy/simple-note "2") <br>
+🔹 🚩 [`[1]` **how-to-be-a-millionaire**](https://github.com/xvferdy/how-to-be-a-millionaire "1") <br>
+🔹 🚩 [`[0]` **simple-static-website**](https://github.com/xvferdy/simple-static-website "0") 
 
 **Preview** 🕶️
 <p align="">
