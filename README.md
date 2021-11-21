@@ -14,7 +14,7 @@
 - [Acknowledgments](#-acknowledgments)
 
 ## 🌍 About the Project
-Trying to create the web portfolio again and store the latest ***small project*** as a coding exercise specially for the frontend side.
+Trying to create the web portfolio again and store the latest ***small project*** as a coding exercise specially for the frontend side. Currently I'm trying to have a grasp of web dev/flow and next I will study more for getting better.
 
 **List of Beginner Project:**
 
