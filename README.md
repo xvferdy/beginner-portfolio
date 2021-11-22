@@ -7,7 +7,7 @@
 > _This website inspired by_ 🚀 [***Hendra Agil***](https://hendraaagil.space/)
 
 ## 📍Table of Contents
-- [beginner-portfolio](#beginner-portfolio)
+
   - [📍Table of Contents](#table-of-contents)
   - [🌍 About the Project](#-about-the-project)
     - [Live berlianto](#live-berlianto)
@@ -17,6 +17,7 @@
     - [File Structure Overview](#file-structure-overview)
     - [📦 Installation](#-installation)
   - [©️ Acknowledgments](#️-acknowledgments)
+  - [Acknowledgments](#-acknowledgments)
 
 ## 🌍 About the Project
 Trying to create the web portfolio again and store the latest ***small project*** as a coding exercise specially for the frontend side. Currently I'm trying to have a grasp of web dev/flow and next I will study more for getting better.
