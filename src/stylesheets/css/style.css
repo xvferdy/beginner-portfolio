@@ -12,7 +12,7 @@ body {
   box-sizing: border-box;
   background-color: #eff4f6;
   background-image: url("../../assets/pngfind.com-dot-png-1207525.png");
-  background-position: bottom;
+  background-position: center;
   background-attachment: fixed;
 }
 
@@ -24,9 +24,14 @@ main p {
   max-width: 1080px;
   padding: 20px;
   margin: 10px auto;
-  min-height: calc(100vh - 70px);
-  margin-bottom: 90px;
+  min-height: calc(100vh - 117px);
 }
+@media only screen and (max-width: 370px) {
+  .pages {
+    min-height: calc(100vh - 115px);
+  }
+}
+
 .active {
   color: #adff2f;
   text-decoration: none;
@@ -231,7 +236,6 @@ p {
 .footer {
   clear: both;
   position: relative;
-  margin-top: -80px;
   bottom: 0;
   background-color: #1976d2;
   color: #fff;
@@ -269,6 +273,40 @@ p {
 }
 .skill-card__coming {
   position: absolute;
+  -webkit-animation: swing 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) both;
+  animation: swing 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) both;
+}
+@-webkit-keyframes swing {
+  0% {
+    -webkit-transform: rotateX(-100deg);
+    transform: rotateX(-100deg);
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    opacity: 1;
+  }
+}
+@keyframes swing {
+  0% {
+    -webkit-transform: rotateX(-100deg);
+    transform: rotateX(-100deg);
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    opacity: 1;
+  }
 }
 .skill-card img {
   width: 100px;
@@ -418,7 +456,7 @@ p {
 }
 
 .home {
-  margin-top: 10vh;
+  margin-top: 8vh;
 }
 .home__gif {
   margin: 25px;
@@ -427,6 +465,7 @@ p {
 }
 .home__gif img {
   min-width: 270px;
+  max-width: 400px;
   box-shadow: rgba(137, 226, 0, 0.685) 0px 5px, rgba(137, 226, 0, 0.3) 0px 10px, rgba(137, 226, 0, 0.2) 0px 15px, rgba(137, 226, 0, 0.1) 0px 20px, rgba(137, 226, 0, 0.05) 0px 25px;
 }
 @media only screen and (max-width: 600px) {

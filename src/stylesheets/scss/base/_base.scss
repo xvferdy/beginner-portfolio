@@ -21,7 +21,7 @@ body {
 	background-image: url("../../assets/pngfind.com-dot-png-1207525.png");
 
 	// background-size: cover;
-	background-position: bottom;
+	background-position: center;
 	// background-repeat: no-repeat;
 	background-attachment: fixed;
 }
@@ -39,17 +39,10 @@ main {
 	padding: 20px;
 	margin: 10px auto;
 	// https://css-tricks.com/couple-takes-sticky-footer/
-	min-height: calc(100vh - 70px);
-	margin-bottom: 90px;
-
-	@include display(tab-port) {
-		// font-size: smaller;
-		// padding: 20px 40px;
-		// margin-bottom: 80px;
-	}
-	@include display(phone) {
-		// padding: 20px;
-		// margin-bottom: 80px;
+	// min-height: calc(100vh - 70px);
+	min-height: calc(100vh - 117px);
+	@include display(sm-phone) {
+		min-height: calc(100vh - 115px);
 	}
 }
 

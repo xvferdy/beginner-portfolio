@@ -131,7 +131,7 @@ const data = {
 			demo: "https://xvferdy.github.io/my-portfolio/",
 		},
 	],
-	pagesUnderConstruction: ["/skills", "/"],
+	pagesUnderConstruction: ["/skills"],
 };
 
 export default data;
