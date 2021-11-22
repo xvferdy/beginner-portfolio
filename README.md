@@ -84,7 +84,7 @@ npm install
 npm start
 ```
 
-## 👏 Acknowledgments
+## ©️ Acknowledgments
 - [Netlify](https://www.netlify.com/)
 - [PNG images](https://www.pngfind.com/)
 - [Random GIF](https://developers.giphy.com/)
