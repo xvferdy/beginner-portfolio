@@ -1,6 +1,6 @@
 import React from "react";
 
-import cs3 from "../assets/cs3-min.png";
+import cs3 from "../assets/cs3-green.png";
 
 function SkillCard({ title, image, status }) {
 	return (

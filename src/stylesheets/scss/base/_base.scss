@@ -19,7 +19,6 @@ body {
 	background-color: $fourth-color;
 	// background-color: black;
 	background-image: url("../../assets/pngfind.com-dot-png-1207525.png");
-
 	// background-size: cover;
 	background-position: center;
 	// background-repeat: no-repeat;
@@ -39,8 +38,7 @@ main {
 	padding: 20px;
 	margin: 10px auto;
 	// https://css-tricks.com/couple-takes-sticky-footer/
-	// min-height: calc(100vh - 70px);
-	min-height: calc(100vh - 117px);
+	min-height: calc(100vh - 117px); //nav,page,footer
 	@include display(sm-phone) {
 		min-height: calc(100vh - 115px);
 	}
