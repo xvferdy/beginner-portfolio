@@ -4,7 +4,7 @@
 > _So I have not been code for 7 month and guess what.., when I want to make an application with **Reactjs** I don't even know how to import a things. LOL_
 
 
-> _This website inspired by_ 🚀 [Hendra Agil](https://hendraaagil.space/)
+> _This website inspired by_ 🚀 [***Hendra Agil***](https://hendraaagil.space/)
 
 ## 📍Table of Contents
 - [About the Project](#-about-the-project)
