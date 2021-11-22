@@ -16,7 +16,7 @@
     - [Prerequisites](#prerequisites)
     - [File Structure Overview](#file-structure-overview)
     - [📦 Installation](#-installation)
-  - [©️ Acknowledgments](#️-acknowledgments)
+  - [Acknowledgments](#️-acknowledgments)
   - [Acknowledgments](#-acknowledgments)
 
 ## 🌍 About the Project
