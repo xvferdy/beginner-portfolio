@@ -14,6 +14,9 @@ const StyledBadge = styled(Badge)(({ theme }) => ({
 		backgroundColor: "#25d366",
 		color: "#25d366",
 		boxShadow: `0 0 0 2px ${theme.palette.background.paper}`,
+		width: "19%",
+		height: "19%",
+		borderRadius: "50%",
 		"&::after": {
 			position: "absolute",
 			top: 0,

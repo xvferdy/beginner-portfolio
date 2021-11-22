@@ -15,6 +15,20 @@
 	}
 	&__coming {
 		position: absolute;
+		// https://animista.net/
+		animation: swing 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) both;
+		@keyframes swing {
+			0% {
+				transform: rotateX(-100deg);
+				transform-origin: top;
+				opacity: 0;
+			}
+			100% {
+				transform: rotateX(0deg);
+				transform-origin: top;
+				opacity: 1;
+			}
+		}
 	}
 	img {
 		width: 100px;

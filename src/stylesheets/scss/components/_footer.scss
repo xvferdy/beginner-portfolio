@@ -1,9 +1,9 @@
-@use '../helpers/' as *;
+@use "../helpers/" as *;
 
 .footer {
 	clear: both;
 	position: relative;
-	margin-top: -80px;
+	margin-top: 11px;
 	bottom: 0;
 	background-color: $primary-color;
 	color: $white-thing;
@@ -13,6 +13,7 @@
 	justify-content: center;
 	align-items: center;
 	z-index: 3;
+
 	@include display(sm-phone) {
 		font-size: 13px;
 	}

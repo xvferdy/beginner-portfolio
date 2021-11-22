@@ -74,20 +74,28 @@ const data = {
 	],
 	projects: [
 		{
-			title: "Yu-Gi-Oh",
-			image: thumb1,
-			description: "A responsive simple static page for YuGiOh Duel Links",
-			tags: ["HTML", "CSS"],
-			githubRepo: "https://github.com/xvferdy/simple-static-website",
-			demo: "https://xvferdy.github.io/simple-static-website/",
-		},
-		{
 			title: "Simple Note",
 			image: thumb3,
 			description: "App with basic CRUD operation with React & JSON server",
 			tags: ["React", "JSON Server"],
 			githubRepo: "https://github.com/xvferdy/simple-note",
 			demo: null,
+		},
+		{
+			title: "Simple Chat App",
+			image: thumb4,
+			description: "Chat with people in a room, brought to you by Socket.IO",
+			tags: ["React", "Sass", "Express"],
+			githubRepo: "https://github.com/xvferdy/simple-chat-app",
+			demo: "https://simple-chat-app-xvferdy.netlify.app/",
+		},
+		{
+			title: "Yu-Gi-Oh",
+			image: thumb1,
+			description: "A responsive simple static page for YuGiOh Duel Links",
+			tags: ["HTML", "CSS"],
+			githubRepo: "https://github.com/xvferdy/simple-static-website",
+			demo: "https://xvferdy.github.io/simple-static-website/",
 		},
 		{
 			title: "Shopping Cart",
@@ -98,14 +106,6 @@ const data = {
 			demo: "https://xvferdy.github.io/shopping-cart-my-ver/",
 		},
 
-		{
-			title: "Simple Chat App",
-			image: thumb4,
-			description: "Chat with people in a room, brought to you by Socket.IO",
-			tags: ["React", "Sass", "Express"],
-			githubRepo: "https://github.com/xvferdy/simple-chat-app",
-			demo: "https://simple-chat-app-xvferdy.netlify.app/",
-		},
 		{
 			title: "How to be a Millionaire",
 			image: thumb2,
@@ -131,7 +131,7 @@ const data = {
 			demo: "https://xvferdy.github.io/my-portfolio/",
 		},
 	],
-	pagesUnderConstruction: ["/skills", "/"],
+	pagesUnderConstruction: ["/skills"],
 };
 
 export default data;
