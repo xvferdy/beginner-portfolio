@@ -3,6 +3,9 @@
 > ℹ️ **Note**<br>
 > _So I have not been code for 7 month and guess what.., when I want to make an application with **Reactjs** I don't even know how to import a things. LOL_
 
+
+> _This website inspired by_ 🚀 [Hendra Agil](https://hendraaagil.space/)
+
 ## 📍Table of Contents
 - [About the Project](#-about-the-project)
   - [Live](#live-berlianto)
@@ -85,6 +88,7 @@ npm start
 - [Netlify](https://www.netlify.com/)
 - [PNG images](https://www.pngfind.com/)
 - [Random GIF](https://developers.giphy.com/)
+- [ngrok](https://ngrok.com/)
 - [Social icon tooltip](https://codepen.io/jonmilner/pen/bfkKF)
 - [Primer CSS](https://primer.style/)
 - [E-signature](https://signaturely.com/online-signature/)
