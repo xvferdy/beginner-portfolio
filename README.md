@@ -1,7 +1,7 @@
 # beginner-portfolio
 
 > ℹ️ **Note**<br>
-> _So I have not been code for 7 month and guess what.., when I want to make an application with **Reactjs** I don't even know how to import a things. LOL_
+> _So I have not been code for 7 months and guess what.., when I want to make an application with **ReactJS** I don't even know how to import a things. LOL_
 
 > _This website inspired by_ 🚀 [***Hendra Agil***](https://hendraaagil.space/)
 
@@ -35,7 +35,7 @@ Trying to create the web portfolio again and store the latest ***small project**
 
 ### Live [berlianto](https://berlianto.netlify.app/)
 ### 👀 Built With
-- React
+- ReactJS
 - Sass
 - Material-UI
 - 💙
