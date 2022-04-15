@@ -24,7 +24,7 @@ Trying to create the web portfolio again and store the latest ***small project**
 🔹 🚩 [`[5]` **jojo-tarot**](https://github.com/xvferdy/tarot-of-marseilles-sass "5") <br>
 🔹 🚩 [`[4]` **shopping-cart-app**](https://github.com/xvferdy/shopping-cart-my-ver "4") <br>
 🔹 🚩 [`[3]` **simple-chat-app**](https://github.com/xvferdy/simple-chat-app "3") <br>
-🔹 🚩 [`[2]` **Loopstudios landing page**](https://github.com/xvferdy/fem-base-apparel-coming-soon "2") \*<sup>updated</sup> <br>
+🔹 🚩 [`[2]` **Loopstudios landing page**](https://github.com/xvferdy/fem-loopstudios-landing-page "2") \*<sup>updated</sup> <br>
 🔹 🚩 [`[1]` **how-to-be-a-millionaire**](https://github.com/xvferdy/how-to-be-a-millionaire "1") <br>
 🔹 🚩 [`[0]` **Base Apparel coming soon page**](https://github.com/xvferdy/fem-base-apparel-coming-soon "0") \*<sup>updated</sup>
 
