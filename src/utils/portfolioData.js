@@ -11,9 +11,9 @@ import netlify from "../assets/netlify.png";
 import express from "../assets/express.png";
 
 // project thumbs
-import thumb1 from "../assets/thumb1.jpg";
+import thumb1 from "../assets/thumb1.png";
 import thumb2 from "../assets/thumb2.jpg";
-import thumb3 from "../assets/thumb3.jpg";
+import thumb3 from "../assets/thumb3.png";
 import thumb4 from "../assets/thumb4.jpg";
 import thumb5 from "../assets/thumb5.jpg";
 import thumb6 from "../assets/thumb6.jpg";
@@ -74,28 +74,12 @@ const data = {
   ],
   projects: [
     {
-      title: "Simple Note",
-      image: thumb3,
-      description: "App with basic CRUD operation with React & JSON server",
-      tags: ["React", "JSON Server"],
-      githubRepo: "https://github.com/xvferdy/simple-note",
-      demo: null,
-    },
-    {
       title: "Simple Chat App",
       image: thumb4,
       description: "Chat with people in a room, brought to you by Socket.IO",
       tags: ["React", "Sass", "Express"],
       githubRepo: "https://github.com/xvferdy/simple-chat-app",
       demo: "https://simple-chat-app-xvferdy.netlify.app/",
-    },
-    {
-      title: "Yu-Gi-Oh",
-      image: thumb1,
-      description: "A responsive simple static page for YuGiOh Duel Links",
-      tags: ["HTML", "CSS"],
-      githubRepo: "https://github.com/xvferdy/simple-static-website",
-      demo: "https://xvferdy.github.io/simple-static-website/",
     },
     {
       title: "Shopping Cart",
@@ -105,7 +89,22 @@ const data = {
       githubRepo: "https://github.com/xvferdy/shopping-cart-my-ver",
       demo: "https://xvferdy.github.io/shopping-cart-my-ver/",
     },
-
+    {
+      title: "Loopstudios",
+      image: thumb3,
+      description: "Responsive Loopstudios landing page",
+      tags: ["React", "Sass"],
+      githubRepo: "https://github.com/xvferdy/fem-loopstudios-landing-page",
+      demo: null,
+    },
+    {
+      title: "Base Apparel coming soon page",
+      image: thumb1,
+      description: "A responsive coming soon page",
+      tags: ["HTML", "Sass"],
+      githubRepo: "https://github.com/xvferdy/fem-base-apparel-coming-soon",
+      demo: "https://xvferdy.github.io/fem-base-apparel-coming-soon/",
+    },
     {
       title: "How to be a Millionaire",
       image: thumb2,
